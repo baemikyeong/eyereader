@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/1e94fae0ae9728fcc5cdad0e10db895fceab469f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d55122012cda27484bb022ed4f250c7545202d3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/a38a36a925c66969681a6811829a3c314f3254b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1020497bcda9a4ef2925c1e8c1c16dd969033180/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/19a987db6fb79ee5e813295a24398c6871551f76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_18fda3907bab5b0ca7923938029173354016ef89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_1c7201444636f2f948f6cf7312b1421e910beef4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_1c7201444636f2f948f6cf7312b1421e910beef4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/bfef22e9bd5bbdac1df7f741c5473c8806e4dc65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d931a33740cbdecbd403ba82ef2f2266440ddb91/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/a565513589f8632df834613bb97ddf580a538a1d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_a614f5e5e77425a5a6ed389bbbc9cdfa97774e0f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3801dd81d04cf5483fe01e030a3af7a8d1699b63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_06ef0cc332000a87b70f22a0542fba9104905aca/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/b431b5e189ef2f806fba96cd49ffa9fb42ecb5d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_3480d92305c7788cef71f2c36e1e2556fa9e949b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/bde42b30c6d90fc59a6785e559fc872819549dee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d858766a319b3c45da45e038fee02032f181ad3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/19a987db6fb79ee5e813295a24398c6871551f76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_18fda3907bab5b0ca7923938029173354016ef89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/a565513589f8632df834613bb97ddf580a538a1d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a614f5e5e77425a5a6ed389bbbc9cdfa97774e0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/646d4769ffb6b958d3ada3b7c00ebc024c4c63c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f040b0624a95bad4fa787c2be466e38d347ea76c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/72ea803158a13d29d81c1d7259808e55a6171c85/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f6b59c82b0e57bc1eae8472f6223cdf351d93342.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/72ea803158a13d29d81c1d7259808e55a6171c85/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6b59c82b0e57bc1eae8472f6223cdf351d93342/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/bde42b30c6d90fc59a6785e559fc872819549dee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d858766a319b3c45da45e038fee02032f181ad3c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/b431b5e189ef2f806fba96cd49ffa9fb42ecb5d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3480d92305c7788cef71f2c36e1e2556fa9e949b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/d6f62148d3254a95676bba710facf6b60547b3eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76e4f906ee27f8937cf40640d21d0420369eb430/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3801dd81d04cf5483fe01e030a3af7a8d1699b63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_06ef0cc332000a87b70f22a0542fba9104905aca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/1e94fae0ae9728fcc5cdad0e10db895fceab469f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d55122012cda27484bb022ed4f250c7545202d3f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/646d4769ffb6b958d3ada3b7c00ebc024c4c63c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f040b0624a95bad4fa787c2be466e38d347ea76c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/36832f48a29f6e0025382eaa683341321ad4e854/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_5770474d7d97a6b1aef06456b690e0fa5bfd14bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/d6f62148d3254a95676bba710facf6b60547b3eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_76e4f906ee27f8937cf40640d21d0420369eb430.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/1bc6a74226533277e346536967238d37a6416d5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2044bc513a77c428f46cc2032da1c6a5888beb91/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/89a649ee7cf7371f310b703eebbfb24f689d195e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_3c8703f57374d0a5082d8d24e5a6847414748523.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/36832f48a29f6e0025382eaa683341321ad4e854/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5770474d7d97a6b1aef06456b690e0fa5bfd14bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/1bc6a74226533277e346536967238d37a6416d5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_2044bc513a77c428f46cc2032da1c6a5888beb91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/7606778466e523e08aad1d60ff99bbfa537d5c27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_6eb97c835ce239474e94e200e1b6c2683d584c5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/aaebd6e0ef92e05724a2c03fcfca15d898105e59/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_e72babe1e2745bf7b82b54f92e3a097198f42603.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/bfef22e9bd5bbdac1df7f741c5473c8806e4dc65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d931a33740cbdecbd403ba82ef2f2266440ddb91.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/aaebd6e0ef92e05724a2c03fcfca15d898105e59/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e72babe1e2745bf7b82b54f92e3a097198f42603/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/7606778466e523e08aad1d60ff99bbfa537d5c27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6eb97c835ce239474e94e200e1b6c2683d584c5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/84224efff18f06c061c6f7b73a484c5458865d53/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28eec5f35c987b1ef5372c0b417179f20706ec74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/dc6250b842c7d532629092998a985906dacbcdb8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e655ab323c9243c49dbb1dee55ffad059ae8db51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/76af6d0a3b0554d181ac280391b7f0bde9737cdd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21c62d85dc35d479148e267da96d608dbf408e58/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/84224efff18f06c061c6f7b73a484c5458865d53/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_28eec5f35c987b1ef5372c0b417179f20706ec74.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/68d0175dadf23d4897d5d0947ebf2cadc0fdac55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25ea042ff7378ccc26196dd09b9b7e9fe012012e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/0df09ba37812df93a090205ac0269781a02d0eaa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b3a57f194ac1651a9c69113a2eb53a6c6f7a2e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/b6cdfe062740d4852ab438bb4664262ebed91eab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9dfb5ab4428f563a186f76d06e367ed63c08cedc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/76af6d0a3b0554d181ac280391b7f0bde9737cdd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_21c62d85dc35d479148e267da96d608dbf408e58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/dc6250b842c7d532629092998a985906dacbcdb8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_e655ab323c9243c49dbb1dee55ffad059ae8db51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/68d0175dadf23d4897d5d0947ebf2cadc0fdac55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_25ea042ff7378ccc26196dd09b9b7e9fe012012e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/776623b7292b285857963ed3b0f8715303e2c92d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f96988672d8f0b974e7f120604c7d520749739d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/b6cdfe062740d4852ab438bb4664262ebed91eab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_9dfb5ab4428f563a186f76d06e367ed63c08cedc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/776623b7292b285857963ed3b0f8715303e2c92d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f96988672d8f0b974e7f120604c7d520749739d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/0df09ba37812df93a090205ac0269781a02d0eaa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_3b3a57f194ac1651a9c69113a2eb53a6c6f7a2e8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/30857657bc6881bdebb1497c4607d38ac28610dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ff0a927220ff6f0ca20b4c2d3b824220d386f5ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/89a649ee7cf7371f310b703eebbfb24f689d195e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c8703f57374d0a5082d8d24e5a6847414748523/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/30857657bc6881bdebb1497c4607d38ac28610dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_ff0a927220ff6f0ca20b4c2d3b824220d386f5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/233680bbe038676481ff6a281b86e9901a492c65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_3629d32a6f443edb1543b1263c1623ddec9f202c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/8225eb15ecb23fda365308a9fd535536f68d935f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fc63ded479ea0785364fd66a939bce81ba282a90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/2be838e7a613c1bea5599972a52fa8f9ede30eb1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa8c7c94b9a5da43a7b1bf1c88e16451891ba926/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/8225eb15ecb23fda365308a9fd535536f68d935f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_fc63ded479ea0785364fd66a939bce81ba282a90.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3cba66fda0216915d7e9635159b1fc9cb834eae6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be8c8a6ebab370efdd956cf3a0e1997951985adf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/233680bbe038676481ff6a281b86e9901a492c65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3629d32a6f443edb1543b1263c1623ddec9f202c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/83dbe985cd51116b75b7f30626edc431ac2d4b83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_18c950eefdf9a59852b89d5317e36cc0f04842d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/53d26f7443dec2959717bc85fbd606713cba4b24/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_9a7a97dbac20a32ca20f885aef661c3c02c396a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/cb64f14e5572aa19408faa9cd95a3f94cf67616c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f0c32544ae52f0e56fc93a0220dd396188f9ccac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/65177bb60dcff28cc134770a8608d9f8ef7d3801/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_091d3831e48fc8e590358d40b7876b6891b9e710.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/65177bb60dcff28cc134770a8608d9f8ef7d3801/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_091d3831e48fc8e590358d40b7876b6891b9e710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/53d26f7443dec2959717bc85fbd606713cba4b24/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a7a97dbac20a32ca20f885aef661c3c02c396a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/cb64f14e5572aa19408faa9cd95a3f94cf67616c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0c32544ae52f0e56fc93a0220dd396188f9ccac/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3cba66fda0216915d7e9635159b1fc9cb834eae6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_be8c8a6ebab370efdd956cf3a0e1997951985adf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/83dbe985cd51116b75b7f30626edc431ac2d4b83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_18c950eefdf9a59852b89d5317e36cc0f04842d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/9d1a06f7ec0b2010327ad36c7ce39d8756f7193c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_01e24e703b3a4e08d8d704ad92506ba050a18347.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/7c36b2466051d8831bd6e2b09608208d51d310be/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_246c6fa2315899dacbb7764ea6f569ace9c7fb02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/0756a2eb35dd718298a1bef2b2c2c4d2620b76a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_a7ebd4dcca2d55e7c67874ed311279cd0abc3459.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/9d1a06f7ec0b2010327ad36c7ce39d8756f7193c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01e24e703b3a4e08d8d704ad92506ba050a18347/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3beb14aa423d44ca7369cdefc390b6619072788a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_817f1f6dc4634293369b40efe406796364907d9a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3beb14aa423d44ca7369cdefc390b6619072788a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_817f1f6dc4634293369b40efe406796364907d9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/cb70dca333a8301eebf3715ae847c0ecfeb79493/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_6d74191b73ea035dbfb95cd4661849e5b2c13782.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/cb70dca333a8301eebf3715ae847c0ecfeb79493/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d74191b73ea035dbfb95cd4661849e5b2c13782/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/7c36b2466051d8831bd6e2b09608208d51d310be/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_246c6fa2315899dacbb7764ea6f569ace9c7fb02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/0756a2eb35dd718298a1bef2b2c2c4d2620b76a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a7ebd4dcca2d55e7c67874ed311279cd0abc3459/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/7ce60b2aead9c6a9d34accb4044d7d316f20a4fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_c3fcc38de5539f3ea455dbb1e50082fd32781981.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/6e0e5f2a01b86d0ac7658b9c7588dcdd6bad0d07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4cb1b5fdbe34d50ff9d95adefe0e8ca8b3df2b51/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/91f3ac536dbbbc49a6c57a299e7000cf01a91fdf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_041ad020ea112f153d4c3f9141768035864abd12.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/9113dda6680aed5b49e124c5f78612c0b6f2d087/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_63f91e2b1ebd42ce93e6bd398ff0a169acdbd244/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/9113dda6680aed5b49e124c5f78612c0b6f2d087/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_63f91e2b1ebd42ce93e6bd398ff0a169acdbd244.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/ba29ad2f0f8f0adea440fa7720a7c5abe501d568/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_96d2f611a4bb2ece9bd8b0e2600fb72bd1da72b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/7c13df82014809a486afce998cae87eee8b7e44a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f87c356367d8e2ce0707b2bf931451fbe92f3637.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3ce46adf53664688dd76b22a63d5821f6000f52c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_e6584688ce194251c738ec9bc36e9862b0e1cc3f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/7c13df82014809a486afce998cae87eee8b7e44a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f87c356367d8e2ce0707b2bf931451fbe92f3637/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/ba29ad2f0f8f0adea440fa7720a7c5abe501d568/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_96d2f611a4bb2ece9bd8b0e2600fb72bd1da72b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3eea9a491596e727b909363ed37230a15d5a5120/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d2e101d859e37552816ab90e5007cb3aa345f3cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/7ce60b2aead9c6a9d34accb4044d7d316f20a4fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c3fcc38de5539f3ea455dbb1e50082fd32781981/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/2be838e7a613c1bea5599972a52fa8f9ede30eb1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_fa8c7c94b9a5da43a7b1bf1c88e16451891ba926.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3ce46adf53664688dd76b22a63d5821f6000f52c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e6584688ce194251c738ec9bc36e9862b0e1cc3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/91f3ac536dbbbc49a6c57a299e7000cf01a91fdf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_041ad020ea112f153d4c3f9141768035864abd12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/2d51b67a9f4e0410964c5539a75f60b6c07e3558/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d0aa6ee59998e8687f6245e10862a26bba531357/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/6e0e5f2a01b86d0ac7658b9c7588dcdd6bad0d07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_4cb1b5fdbe34d50ff9d95adefe0e8ca8b3df2b51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/c1439bf8e050b9b30cd2d3ec245ab93ceb25c9d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f3f36f601db4f489daf6ec5a43206a5c42188e4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/b6556a06a162fee06aafe664af81e563c9594cd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_4bf770fa1546ab8b8aad04723f83fed7b4732f99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3eea9a491596e727b909363ed37230a15d5a5120/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d2e101d859e37552816ab90e5007cb3aa345f3cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/77abbd429fa9d80bb380a31ec094b2b24e6f051b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_5b7e8f48a70bf145703d5493f3c6fe9759803130.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/b6556a06a162fee06aafe664af81e563c9594cd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4bf770fa1546ab8b8aad04723f83fed7b4732f99/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3da00bd97eeedfdfce40be185dd405871c2bdcae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_5118357bf72717a38e6118e8e626daa720cb9373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/2d51b67a9f4e0410964c5539a75f60b6c07e3558/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d0aa6ee59998e8687f6245e10862a26bba531357.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/77abbd429fa9d80bb380a31ec094b2b24e6f051b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5b7e8f48a70bf145703d5493f3c6fe9759803130/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/0ae7a5d2c0a002010cbd960c808e772bc2f35a58/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_f6286f34ad8d82a335e26c44de3bb82d28755fb2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/c1439bf8e050b9b30cd2d3ec245ab93ceb25c9d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3f36f601db4f489daf6ec5a43206a5c42188e4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/c98de49a96673976e1c741b229ec456892c2a929/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a59d1b4cf85b5a87f7e5a3338b35e430e345538d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/0ae7a5d2c0a002010cbd960c808e772bc2f35a58/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6286f34ad8d82a335e26c44de3bb82d28755fb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/633878b6e7c5f5d6e13a3ccc9b6fa85bbeda9332/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_4f7d9ae9743192110c98b907cc7bce84eca5af86.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/776623b7292b285857963ed3b0f8715303e2c92d/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_2a296a8cbbb40e776412cc1b4a9794e0d6b17051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/efa76760c53b1f0aabfa82cb2d9c79d066c74bbb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02c89890703408cf02a0ddd1c103b855ae066c8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/633878b6e7c5f5d6e13a3ccc9b6fa85bbeda9332/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f7d9ae9743192110c98b907cc7bce84eca5af86/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/776623b7292b285857963ed3b0f8715303e2c92d/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_2a296a8cbbb40e776412cc1b4a9794e0d6b17051.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/efa76760c53b1f0aabfa82cb2d9c79d066c74bbb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_02c89890703408cf02a0ddd1c103b855ae066c8c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3da00bd97eeedfdfce40be185dd405871c2bdcae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5118357bf72717a38e6118e8e626daa720cb9373/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/7b1fdbda31ed8c8d379f32f3f8d6c6dc0c228822/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b24f0ba14229729a0fc902486277f503174a7445/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/65dceffc6212cdb904ab0b98d5f3ed5c55295b88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_a8cb3883306bd9b5efa47984f2e73c1f20ea87d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/c98de49a96673976e1c741b229ec456892c2a929/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_a59d1b4cf85b5a87f7e5a3338b35e430e345538d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/13c2920b35e2f57237018ba9ca2844b300259d4c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d108f21be7fbc0ea8b3ca441d4f7af8731df687e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/65dceffc6212cdb904ab0b98d5f3ed5c55295b88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8cb3883306bd9b5efa47984f2e73c1f20ea87d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/13c2920b35e2f57237018ba9ca2844b300259d4c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d108f21be7fbc0ea8b3ca441d4f7af8731df687e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/9f10db91b84a1bc3da819b8ebe701746f61e8381/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_de7155dd74c12d40738476a8a7bce67107d72f24.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_150eb4b8b1f5321bb1f9caf1bff7cb5191b5effa/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/681f85dd22d05d0214dbc3da2978401de13c832e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_d7080861dba800cb4ec108112620fae4c0d79e09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/3f8aff5d6e2f38e31af87d7b9476a3e2f74cfb8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_843f081f85ff39e1e84a44e6d0a7eaf8ef59cbfc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/681f85dd22d05d0214dbc3da2978401de13c832e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7080861dba800cb4ec108112620fae4c0d79e09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/3f8aff5d6e2f38e31af87d7b9476a3e2f74cfb8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_843f081f85ff39e1e84a44e6d0a7eaf8ef59cbfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/9f10db91b84a1bc3da819b8ebe701746f61e8381/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de7155dd74c12d40738476a8a7bce67107d72f24/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/f656367b9cca8fd72d9cf3d4eea5779fc5a77525/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_7ff2fa1584c78b59f8bb3c277dc1f3da1999ecb7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/39ea356cc64905196c9240df6fdc286a86fd270d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e2955fb560bb1d6e6474a434bcc373321aa2fa9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/ed6988df15b02795073bc879c5e64b99351b0686/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_e2e00e158f6ddbaa2ae9291a425301cb6dd5bacf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/f656367b9cca8fd72d9cf3d4eea5779fc5a77525/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7ff2fa1584c78b59f8bb3c277dc1f3da1999ecb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_150eb4b8b1f5321bb1f9caf1bff7cb5191b5effa.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mygirlfriend/.android/build-cache/ed6988df15b02795073bc879c5e64b99351b0686/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e00e158f6ddbaa2ae9291a425301cb6dd5bacf/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/39ea356cc64905196c9240df6fdc286a86fd270d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_0e2955fb560bb1d6e6474a434bcc373321aa2fa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/a38a36a925c66969681a6811829a3c314f3254b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_1020497bcda9a4ef2925c1e8c1c16dd969033180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mygirlfriend/.android/build-cache/7b1fdbda31ed8c8d379f32f3f8d6c6dc0c228822/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mygirlfriend/AndroidStudioProjects/Action_navigator/app/build/intermediates/pre-dexed/debug/classes_b24f0ba14229729a0fc902486277f503174a7445.jar" />
+    </item>
+
+</items>
