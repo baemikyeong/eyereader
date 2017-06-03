@@ -10,6 +10,8 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -18,11 +20,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-
-
-
         <activity
             android:name=".eyetoggle.MainActivity"
             android:label="@string/app_name"
@@ -50,13 +47,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".eyetoggle.Textview_activity"></activity>
+        <activity android:name=".eyetoggle.Textview_activity" />
 
         <service
             android:name=".eyetoggle.ScreenFilterService"
-
-            >
-    </service>
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".eyetoggle.AudioService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
