@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="play-services-appinvite-10.2.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/91f3ac536dbbbc49a6c57a299e7000cf01a91fdf/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/91f3ac536dbbbc49a6c57a299e7000cf01a91fdf/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e1140e8e3896a6881f3fffca76c348b6144b0a37/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/e1140e8e3896a6881f3fffca76c348b6144b0a37/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
