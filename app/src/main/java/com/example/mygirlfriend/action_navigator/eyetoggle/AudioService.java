@@ -92,7 +92,7 @@ public class AudioService extends Service{
             recorder.stop();
             recorder.release();
             recorder = null;
-
+            addRecordingToMediaLibrary();
         }
     }
 
