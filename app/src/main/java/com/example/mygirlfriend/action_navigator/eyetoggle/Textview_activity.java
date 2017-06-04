@@ -1,7 +1,8 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.mygirlfriend.action_navigator.R;
@@ -16,10 +17,20 @@ public class Textview_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text);
-        TextView helloTxt = (TextView) findViewById(R.id.hellotxt);
+
         helloTxt.setText(readTxt());
+       // ScrollView scrollView = (ScrollView)findViewById(R.id.)
+
+        Button btn = (Button) findViewById(R.id.button3);
+      //  btn.setOnClickListener(mClickListener);
+
+
 
     }
+
+
+    TextView helloTxt = (TextView) findViewById(R.id.hellotxt);
+
 
     private String readTxt() {
 
@@ -42,4 +53,28 @@ public class Textview_activity extends AppCompatActivity {
 
         return byteArrayOutputStream.toString();
     }
+
+
+   /* Button.OnClickListener mClickListener = new View.OnClickListener() {
+        public void onClick(View v) {
+            //이곳에 버튼 클릭시 일어날 일을 적습니다.
+            int lineHeight = helloTxt.getLineHeight();
+            int itemPosition = 10;
+            scrollView.scrollTo(0, lineHeight * itemPosition);
+
+
+
+
+
+        }
+    };
+*/
+
 }
+
+
+
+
+
+
+
