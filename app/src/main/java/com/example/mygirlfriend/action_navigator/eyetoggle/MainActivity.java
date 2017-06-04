@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private double right_thres = 0;
     private Button textbutton;
     private boolean isRecording = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -120,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.action_bookmark) {
 
         } else if (id == R.id.action_mic) {
+            /*
             if(isRecording == false) {
                 startService(new Intent(this, AudioService.class));
                 isRecording = true;
@@ -128,6 +130,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 stopService(new Intent(this,AudioService.class));
                 isRecording = false;
             }
+            */
         } else if (id == R.id.action_initialize) {
             Intent intent = new Intent(MainActivity.this, FaceTrackerActivity.class);
 

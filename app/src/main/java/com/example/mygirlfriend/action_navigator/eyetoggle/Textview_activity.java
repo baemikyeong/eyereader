@@ -1,9 +1,15 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
 import android.os.Bundle;
+
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ScrollView;
+
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Button;
+
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 
@@ -13,23 +19,42 @@ import java.io.InputStream;
 
 public class Textview_activity extends AppCompatActivity {
 
+   private TextView helloTxt;
+    private ScrollView scrollView;
+    private int cnt=0;
+    private int lineHeight;
+    private int scrollViewHeight;
+    private int visibleTextLineCount;
+    private int itemPosition;
+    private int x;
+    private int[] location = new int[2];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text);
 
+        helloTxt = (TextView) findViewById(R.id.hellotxt);
         helloTxt.setText(readTxt());
-       // ScrollView scrollView = (ScrollView)findViewById(R.id.)
+        scrollView = (ScrollView) findViewById(R.id.scroll_text);
 
-        Button btn = (Button) findViewById(R.id.button3);
-      //  btn.setOnClickListener(mClickListener);
+        scrollView.setOnTouchListener(new View.OnTouchListener(){   //터치 이벤트 리스너 등록(누를때와 뗐을때를 구분)
 
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                // TODO Auto-generated method stub
 
+                if(event.getAction()==MotionEvent.ACTION_UP){
+                    if(scrollView.getClass()==v.getClass()){
+                        change_location();
+                    }
+                }
+
+                return true;
+            }
+        });
 
     }
-
-
-    TextView helloTxt = (TextView) findViewById(R.id.hellotxt);
 
 
     private String readTxt() {
@@ -55,20 +80,17 @@ public class Textview_activity extends AppCompatActivity {
     }
 
 
-   /* Button.OnClickListener mClickListener = new View.OnClickListener() {
-        public void onClick(View v) {
-            //이곳에 버튼 클릭시 일어날 일을 적습니다.
-            int lineHeight = helloTxt.getLineHeight();
-            int itemPosition = 10;
-            scrollView.scrollTo(0, lineHeight * itemPosition);
+    public void change_location(){
 
+        helloTxt.getLocationOnScreen(location);
+        if(location[1] <= 0)
+            location[1] = (-1)*location[1];
+        if(location[1]+1000 <= helloTxt.getBottom())
+            scrollView.scrollTo(0, location[1]+1000);
+        else
+            Toast.makeText(this,"더 이상 못내려가요",Toast.LENGTH_SHORT).show();
 
-
-
-
-        }
-    };
-*/
+    }
 
 }
 
