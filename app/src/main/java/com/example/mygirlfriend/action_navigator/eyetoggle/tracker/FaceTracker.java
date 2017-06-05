@@ -29,11 +29,12 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 
+import org.greenrobot.eventbus.EventBus;
 
 
 public class FaceTracker extends Tracker<Face> {
 
-    private static final float PROB_THRESHOLD = 0.7f;
+    private static final float PROB_THRESHOLD = 0.5f;
     private static final String TAG = FaceTracker.class.getSimpleName();
     private boolean leftClosed;
     private boolean rightClosed;
@@ -75,7 +76,13 @@ public class FaceTracker extends Tracker<Face> {
             }
         }
 
-
+        if (leftClosed && !rightClosed) {
+            EventBus.getDefault().post(new LeftEyeClosedEvent());
+        } else if (rightClosed && !leftClosed) {
+            EventBus.getDefault().post(new RightEyeClosedEvent());
+        } else if (!leftClosed && !rightClosed) {
+            EventBus.getDefault().post(new NeutralFaceEvent());
+        }
 
     }
 }

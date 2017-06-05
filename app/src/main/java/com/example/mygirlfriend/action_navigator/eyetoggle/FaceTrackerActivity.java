@@ -163,7 +163,7 @@ public final class FaceTrackerActivity extends Activity {
             mCameraSource = null;
         }
 
-        if(check != 1) {
+        if(check >= 1) {
             intent.putExtra("Left_thred", left_thred);
             intent.putExtra("Right_thred", right_thred);
         }
@@ -329,8 +329,9 @@ public final class FaceTrackerActivity extends Activity {
             if(check == 1){
                 mFaceGraphic.setcheck();
                 check++;
+                return_check();
             }
-            return_check();
+
         }
 
         public void return_check(){
@@ -348,9 +349,10 @@ public final class FaceTrackerActivity extends Activity {
             if(check == 1){
                 mFaceGraphic.setcheck();
                 check++;
+                return_check();
             }
             mFaceGraphic.setId(faceId);
-          return_check();
+
         }
 
         /**
@@ -363,8 +365,9 @@ public final class FaceTrackerActivity extends Activity {
             if(check == 1){
                 mFaceGraphic.setcheck();
                 check++;
+                return_check();
             }
-             return_check();
+
         }
 
         /**
