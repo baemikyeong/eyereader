@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private double right_thres = 0;
     private Button textbutton;
     private boolean isRecording = false;
+    private int firstValue;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         try {
             Intent intent = this.getIntent();
             if (intent != null) {
+                firstValue = com.example.mygirlfriend.action_navigator.eyetoggle.TestSharedPreferenceActivity.savePreferences();
                 left_thres = intent.getDoubleExtra("Left_thred", 0.0);
                 right_thres = intent.getDoubleExtra("Right_thred", 0.0);
                 Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
