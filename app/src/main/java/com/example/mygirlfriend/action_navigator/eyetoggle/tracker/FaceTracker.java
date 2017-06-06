@@ -34,13 +34,13 @@ import org.greenrobot.eventbus.EventBus;
 
 public class FaceTracker extends Tracker<Face> {
 
-    private static final float PROB_THRESHOLD = 0.5f;
+    private static final float PROB_THRESHOLD = 0.7f;
     private static final String TAG = FaceTracker.class.getSimpleName();
     private boolean leftClosed;
     private boolean rightClosed;
     private double left_thres;
     private double right_thres;
-    private boolean initial_check;
+    private boolean initial_check = false;
     private Face mface;
 
     public void set_indi(double left, double right){
@@ -80,7 +80,7 @@ public class FaceTracker extends Tracker<Face> {
             EventBus.getDefault().post(new LeftEyeClosedEvent());
         } else if (rightClosed && !leftClosed) {
             EventBus.getDefault().post(new RightEyeClosedEvent());
-        } else if (!leftClosed && !rightClosed) {
+        } else if (leftClosed && rightClosed) {
             EventBus.getDefault().post(new NeutralFaceEvent());
         }
 

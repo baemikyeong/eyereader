@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private CameraSource mCameraSource;
     private FaceTracker face_tracker;
     private int check;
-    private double left_thres = 0;
-    private double right_thres = 0;
+    private double left_thres = 0.0;
+    private double right_thres = 0.0;
     private Button textbutton;
     private boolean isRecording = false;
 
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         try {
             Intent intent = this.getIntent();
             if (intent != null) {
-                left_thres = intent.getDoubleExtra("Left_thred", 0.0);
-                right_thres = intent.getDoubleExtra("Right_thred", 0.0);
+                left_thres = intent.getExtras().getDouble("Left_thred");
+                right_thres = intent.getExtras().getDouble("Right_thred");
                 Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
             }
         } catch (NullPointerException e) {

@@ -54,9 +54,10 @@ public final class FaceTrackerActivity extends Activity {
 
     private CameraSourcePreview mPreview;
     private GraphicOverlay mGraphicOverlay;
+    public static boolean initial_check;
 
-    public static double right_thred;
-    public static double left_thred;
+    public static double right_thred1;
+    public static double left_thred1;
     private int check = 0;
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
@@ -74,6 +75,7 @@ public final class FaceTrackerActivity extends Activity {
         super.onCreate(icicle);
         setContentView(R.layout.main);
 
+        initial_check = false;
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
 
@@ -163,9 +165,9 @@ public final class FaceTrackerActivity extends Activity {
             mCameraSource = null;
         }
 
-        if(check >= 1) {
-            intent.putExtra("Left_thred", left_thred);
-            intent.putExtra("Right_thred", right_thred);
+        if(initial_check == true) {
+            intent.putExtra("Left_thred", left_thred1);
+            intent.putExtra("Right_thred", right_thred1);
         }
         else{
             intent.putExtra("Left_thred", (double)0.5);
@@ -183,13 +185,9 @@ public final class FaceTrackerActivity extends Activity {
             e.printStackTrace();
         }
             check = 1;
+        initial_check = true;
         onPause();
         onResume();
-
-        GraphicFaceTracker a = new GraphicFaceTracker(mGraphicOverlay);
-
-        left_thred = a.mFaceGraphic.return_left();
-        right_thred = a.mFaceGraphic.return_right();
     }
     /**
      * Restarts the camera.
@@ -336,8 +334,8 @@ public final class FaceTrackerActivity extends Activity {
 
         public void return_check(){
 
-            right_thred = mFaceGraphic.right_thred;
-            left_thred = mFaceGraphic.left_thred;
+            right_thred1 = mFaceGraphic.return_right();
+            left_thred1 = mFaceGraphic.return_left();
 
         }
 

@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.LeftEyeClosedEvent;
+import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.RightEyeClosedEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.tracker.FaceTracker;
 import com.example.mygirlfriend.action_navigator.eyetoggle.util.PlayServicesUtil;
@@ -103,24 +104,21 @@ public class Textview_activity extends AppCompatActivity {
     public void change_down_location(){
 
         helloTxt.getLocationOnScreen(location);
-        if(location[1] <= 0)
+        if(location[1] < 0)
             location[1] = (-1)*location[1];
-        if(location[1]+30 <= helloTxt.getBottom())
-            scrollView.scrollTo(0, location[1]+30);
-        else
-            Toast.makeText(this,"더 이상 못내려가요",Toast.LENGTH_SHORT).show();
+        scrollView.scrollTo(0, location[1]+30);
+        Toast.makeText(this, location[1], Toast.LENGTH_SHORT).show();
 
     }
 
     public void change_up_location(){
 
         helloTxt.getLocationOnScreen(location);
-        if(location[1] <= 0)
+
+        if(location[1] < 0)
             location[1] = (-1)*location[1];
-        if(location[1]-30 <= helloTxt.getBottom())
-            scrollView.scrollTo(0, location[1]-30);
-        else
-            Toast.makeText(this,"더 이상 못내려가요",Toast.LENGTH_SHORT).show();
+
+        scrollView.scrollTo(0, location[1]-30);
 
     }
 
@@ -225,7 +223,8 @@ public class Textview_activity extends AppCompatActivity {
     public void onLeftEyeClosed(LeftEyeClosedEvent e) {
         // if (catchUpdatingLock()){
       //  Toast.makeText(this, "왼쪽감음", Toast.LENGTH_SHORT).show();
-        change_down_location();
+       // change_down_location();
+
         //}
     }
 
@@ -233,7 +232,17 @@ public class Textview_activity extends AppCompatActivity {
     public void onRightEyeClosed(RightEyeClosedEvent e) {
         //   if (catchUpdatingLock()) {
        // Toast.makeText(this, "오른쪽감음", Toast.LENGTH_SHORT).show();
-        change_up_location();
+       // change_up_location();
+
+        // }
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onNeutralFace(NeutralFaceEvent e) {
+        //   if (catchUpdatingLock()) {
+        Toast.makeText(this, "두눈감음", Toast.LENGTH_SHORT).show();
+        change_down_location();
+
         // }
     }
 
