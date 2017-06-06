@@ -16,7 +16,7 @@ public class TestSharedPreferenceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_shared_preference);
 
-        firstValue = getPreferences();
+      //  firstValue = getPreferences();
     }
 
     private void getPreferences(){

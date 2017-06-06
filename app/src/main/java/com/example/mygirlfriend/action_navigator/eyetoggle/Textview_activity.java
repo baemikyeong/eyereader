@@ -107,7 +107,7 @@ public class Textview_activity extends AppCompatActivity {
         if(location[1] < 0)
             location[1] = (-1)*location[1];
         scrollView.scrollTo(0, location[1]+30);
-        Toast.makeText(this, location[1], Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "location : " + location[1], Toast.LENGTH_SHORT).show();
 
     }
 
@@ -240,7 +240,7 @@ public class Textview_activity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNeutralFace(NeutralFaceEvent e) {
         //   if (catchUpdatingLock()) {
-        Toast.makeText(this, "두눈감음", Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(this, "두눈감음", Toast.LENGTH_SHORT).show();
         change_down_location();
 
         // }
@@ -298,10 +298,3 @@ public class Textview_activity extends AppCompatActivity {
     }
 
 }
-
-
-
-
-
-
-

@@ -55,9 +55,10 @@ public final class FaceTrackerActivity extends Activity {
     private CameraSourcePreview mPreview;
     private GraphicOverlay mGraphicOverlay;
     public static boolean initial_check;
+    private GraphicFaceTracker face_check;
 
-    public static double right_thred1;
-    public static double left_thred1;
+    public static double right_thred1=0;
+    public static double left_thred1=0;
     private int check = 0;
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
@@ -173,21 +174,21 @@ public final class FaceTrackerActivity extends Activity {
             intent.putExtra("Left_thred", (double)0.5);
             intent.putExtra("Right_thred", (double)0.5);
         }
+        left_thred1 = 0;
+        right_thred1 = 0;
         startActivity(intent);
 
     }
 
     public void onClickInit (View v ){
 
-        try {
-            sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-            check = 1;
+        face_check.onDone();
+        check = 1;
         initial_check = true;
-        onPause();
-        onResume();
+        face_check = new GraphicFaceTracker(mGraphicOverlay);
+
+
+     //   face_check.return_check();
     }
     /**
      * Restarts the camera.
@@ -309,7 +310,8 @@ public final class FaceTrackerActivity extends Activity {
     private class GraphicFaceTrackerFactory implements MultiProcessor.Factory<Face> {
         @Override
         public Tracker<Face> create(Face face) {
-            return new GraphicFaceTracker(mGraphicOverlay);
+            face_check = new GraphicFaceTracker(mGraphicOverlay);
+            return face_check;
         }
     }
 
@@ -324,18 +326,27 @@ public final class FaceTrackerActivity extends Activity {
         GraphicFaceTracker(GraphicOverlay overlay) {
             mOverlay = overlay;
             mFaceGraphic = new FaceGraphic(overlay);
+
             if(check == 1){
                 mFaceGraphic.setcheck();
-                check++;
                 return_check();
             }
-
         }
 
         public void return_check(){
+            double r,l;
+            r = mFaceGraphic.return_right();
+            l = mFaceGraphic.return_left();
 
-            right_thred1 = mFaceGraphic.return_right();
-            left_thred1 = mFaceGraphic.return_left();
+            if( right_thred1 != 0 && r<=right_thred1)
+                right_thred1 = r;
+            if( left_thred1 != 0 && l<=left_thred1)
+                left_thred1 = l;
+
+            if(right_thred1 == 0)
+                right_thred1 = r;
+            if(left_thred1 == 0)
+                left_thred1 = l;
 
         }
 
@@ -344,11 +355,7 @@ public final class FaceTrackerActivity extends Activity {
          */
         @Override
         public void onNewItem(int faceId, Face item) {
-            if(check == 1){
-                mFaceGraphic.setcheck();
-                check++;
-                return_check();
-            }
+
             mFaceGraphic.setId(faceId);
 
         }
@@ -358,13 +365,9 @@ public final class FaceTrackerActivity extends Activity {
          */
         @Override
         public void onUpdate(FaceDetector.Detections<Face> detectionResults, Face face) {
+
             mOverlay.add(mFaceGraphic);
             mFaceGraphic.updateFace(face);
-            if(check == 1){
-                mFaceGraphic.setcheck();
-                check++;
-                return_check();
-            }
 
         }
 

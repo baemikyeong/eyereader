@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
 
             Toast.makeText(this, "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "시작버튼을 누른 후, 약 삼초간 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "정확도를 위해 두번 이상 초기화 작업을 해주세요 :)", Toast.LENGTH_SHORT).show();
 
             startActivity(intent);
         }
