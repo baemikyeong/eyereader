@@ -25,6 +25,9 @@ import com.example.mygirlfriend.action_navigator.eyetoggle.event.RightEyeClosedE
 import com.example.mygirlfriend.action_navigator.eyetoggle.tracker.FaceTracker;
 import com.example.mygirlfriend.action_navigator.eyetoggle.util.PlayServicesUtil;
 import com.google.android.gms.vision.CameraSource;
+import com.google.android.gms.vision.Detector;
+import com.google.android.gms.vision.Tracker;
+import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 import com.google.android.gms.vision.face.LargestFaceFocusingProcessor;
 
@@ -63,7 +66,7 @@ public class Textview_activity extends AppCompatActivity {
         helloTxt = (TextView) findViewById(R.id.hellotxt);
         helloTxt.setText(readTxt());
         scrollView = (ScrollView) findViewById(R.id.scroll_text);
-
+        helloTxt.getLocationOnScreen(location);
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
         // permission granted...?
@@ -103,17 +106,16 @@ public class Textview_activity extends AppCompatActivity {
 
     public void change_down_location(){
 
-        helloTxt.getLocationOnScreen(location);
+//        helloTxt.getLocationOnScreen(location);
         if(location[1] < 0)
             location[1] = (-1)*location[1];
-        scrollView.scrollTo(0, location[1]+30);
-        Toast.makeText(this, "location : " + location[1], Toast.LENGTH_SHORT).show();
+        scrollView.scrollTo(0, location[1]+60);
+      //  Toast.makeText(this, "location : " + location[1], Toast.LENGTH_SHORT).show();
+        location[1] += 60;
 
     }
 
     public void change_up_location(){
-
-        helloTxt.getLocationOnScreen(location);
 
         if(location[1] < 0)
             location[1] = (-1)*location[1];
