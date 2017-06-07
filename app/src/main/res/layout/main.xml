@@ -41,4 +41,18 @@
       android:onClick="onClickBack"
       android:text="Back to read" />
 
+  <TextView
+      android:id="@+id/show_firstValue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="HERE"/>
+
+  <Button
+      android:id="@+id/show_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="onClickBack"
+      android:text="show first Value" />
+
+
 </LinearLayout>

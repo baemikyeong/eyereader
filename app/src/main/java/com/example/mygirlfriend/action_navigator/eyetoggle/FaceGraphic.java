@@ -52,8 +52,8 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private int mFaceId;
     private float mFaceHappiness;
 
-    public static double left_thred;
-    public static double right_thred;
+    public static float left_thred;
+    public static float right_thred;
     private int face_check=0;
 
     FaceGraphic(GraphicOverlay overlay) {
@@ -89,9 +89,9 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         postInvalidate();
     }
 
-    public double return_left(){ return left_thred; }
+    public float return_left(){ return left_thred; }
 
-    public double return_right(){ return right_thred;}
+    public float return_right(){ return right_thred;}
 
     void setcheck(){
         face_check = 1;

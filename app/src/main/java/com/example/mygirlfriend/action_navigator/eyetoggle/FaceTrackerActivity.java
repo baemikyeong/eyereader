@@ -21,12 +21,15 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.camera.CameraSourcePreview;
@@ -40,8 +43,6 @@ import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 
 import java.io.IOException;
-
-import static java.lang.Thread.sleep;
 
 /**
  * Activity for the face tracker app.  This app detects faces with the rear facing camera, and draws
@@ -57,13 +58,20 @@ public final class FaceTrackerActivity extends Activity {
     public static boolean initial_check;
     private GraphicFaceTracker face_check;
 
-    public static double right_thred1=0;
-    public static double left_thred1=0;
+    public static float right_thred1=0;
+    public static float left_thred1=0;
     private int check = 0;
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
 
+    private Button btn1;
+    private TextView text1;
+
+    private SharedPreferences intPref;
+    private SharedPreferences.Editor editor1;
+    private float a1;
+    private float a2;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -80,6 +88,12 @@ public final class FaceTrackerActivity extends Activity {
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
 
+        text1 = (TextView)findViewById(R.id.show_firstValue);
+        btn1 = (Button)findViewById(R.id.show_btn);
+
+        intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
+        editor1 = intPref.edit();
+
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
         int rc = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
@@ -88,6 +102,20 @@ public final class FaceTrackerActivity extends Activity {
         } else {
             requestCameraPermission();
         }
+       btn1.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v) {
+                editor1.putFloat("valueL",left_thred1);
+                editor1.putFloat("valueR",right_thred1);
+                editor1.commit();
+
+                float outputL = intPref.getFloat("ValueL", 0);
+                float outputR = intPref.getFloat("ValueR", 0);
+                text1.setText(String.valueOf(outputL)+"_________"+String.valueOf(outputR));
+                //text1.setText(String.valueOf(a1)+"_______________"+String.valueOf(a2));
+
+            }
+        });
+
     }
 
     /**
@@ -167,12 +195,20 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         if(initial_check == true) {
-            intent.putExtra("Left_thred", left_thred1);
-            intent.putExtra("Right_thred", right_thred1);
+            editor1.putFloat("FirstLValue",left_thred1);
+            editor1.putFloat("FirstRValue",right_thred1);//값 저장
+            editor1.commit();//커밋
+             a1 = intPref.getFloat("FirstLValue", 0);
+             a2 =  intPref.getFloat("FirstRValue", 0);
+
+          /*  intent.putExtra("Left_thred", left_thred1);
+            intent.putExtra("Right_thred", right_thred1);*/
+            intent.putExtra("Left_thred", a1);
+            intent.putExtra("Right_thred", a2);
         }
         else{
-            intent.putExtra("Left_thred", (double)0.5);
-            intent.putExtra("Right_thred", (double)0.5);
+            intent.putExtra("Left_thred", (float)0.5);
+            intent.putExtra("Right_thred", (float)0.5);
         }
         left_thred1 = 0;
         right_thred1 = 0;
@@ -334,7 +370,7 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         public void return_check(){
-            double r,l;
+            float r,l;
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
 
