@@ -54,12 +54,19 @@ public final class FaceTrackerActivity extends Activity {
 
     private CameraSourcePreview mPreview;
     private GraphicOverlay mGraphicOverlay;
-    public static boolean initial_check;
     private GraphicFaceTracker face_check;
 
+    // 초기화 여부 판단
+    public static boolean initial_check;
+
+
+    // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
     public static double right_thred1=0;
     public static double left_thred1=0;
+
+    // 크기 저장을 하는 함수 호출을 위한 변수
     private int check = 0;
+
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
@@ -180,15 +187,19 @@ public final class FaceTrackerActivity extends Activity {
 
     }
 
-    public void onClickInit (View v ){
-
+    public void onClickInit (View v ) throws InterruptedException {
+        // 정확도를 위해 1초 뒤 한 번 더 check
         face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
 
+        Thread.sleep(500);
 
-     //   face_check.return_check();
+        face_check.onDone();
+        check = 1;
+        initial_check = true;
+        face_check = new GraphicFaceTracker(mGraphicOverlay);
     }
     /**
      * Restarts the camera.
@@ -338,11 +349,13 @@ public final class FaceTrackerActivity extends Activity {
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
 
+            // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
             if( right_thred1 != 0 && r<=right_thred1)
                 right_thred1 = r;
             if( left_thred1 != 0 && l<=left_thred1)
                 left_thred1 = l;
 
+            // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
             if(right_thred1 == 0)
                 right_thred1 = r;
             if(left_thred1 == 0)

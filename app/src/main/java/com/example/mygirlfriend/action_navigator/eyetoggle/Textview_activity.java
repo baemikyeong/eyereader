@@ -41,20 +41,14 @@ import java.io.InputStream;
 
 public class Textview_activity extends AppCompatActivity {
 
-    private static final int REQUEST_CAMERA_PERM = 69;
-   private TextView helloTxt;
-    private ScrollView scrollView;
-    private int cnt=0;
-    private int lineHeight;
-    private int scrollViewHeight;
-    private int visibleTextLineCount;
-    private int itemPosition;
-    private int x;
-    private int[] location = new int[2];
-    private FaceDetector mFaceDetector;
-    private CameraSource mCameraSource;
-    private FaceTracker face_tracker;
-    private double left_thres = 0;
+    private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
+    private TextView helloTxt;                              // 텍스트 뷰를 띄워줄 뷰
+    private ScrollView scrollView;                          // 텍스트 뷰를 스크롤 뷰를 이용해 화면에 출력
+    private int[] location = new int[2];                    // 사용자가 현재 보고 있는 화면의 위치 저장
+    private FaceDetector mFaceDetector;                     // 얼굴 인식
+    private CameraSource mCameraSource;                     // 카메라 객체
+    private FaceTracker face_tracker;                       // 눈 파악
+    private double left_thres = 0;                          // 사용자의 초기값
     private double right_thres = 0;
 
 
@@ -67,6 +61,7 @@ public class Textview_activity extends AppCompatActivity {
         helloTxt.setText(readTxt());
         scrollView = (ScrollView) findViewById(R.id.scroll_text);
         helloTxt.getLocationOnScreen(location);
+
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
         // permission granted...?
@@ -78,9 +73,16 @@ public class Textview_activity extends AppCompatActivity {
             requestCameraPermission();
         }
 
+        // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
+        scrollView.setOnTouchListener(new View.OnTouchListener(){
+            public boolean onTouch(View v, MotionEvent event){
+                helloTxt.getLocationOnScreen(location);
+                return false;
+            }
+        });
     }
 
-
+    // txt 파일 읽어오는 함수
     private String readTxt() {
 
         InputStream inputStream = getResources().openRawResource(R.raw.mytext);
@@ -103,25 +105,26 @@ public class Textview_activity extends AppCompatActivity {
         return byteArrayOutputStream.toString();
     }
 
-
+    //눈깜박임에 따른 페이지 down 함수
     public void change_down_location(){
-
-//        helloTxt.getLocationOnScreen(location);
+        // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
         if(location[1] < 0)
             location[1] = (-1)*location[1];
-        scrollView.scrollTo(0, location[1]+60);
-      //  Toast.makeText(this, "location : " + location[1], Toast.LENGTH_SHORT).show();
-        location[1] += 60;
+
+        // 위치 변경
+            scrollView.scrollTo(0, location[1]+60);
+            location[1] += 60;
 
     }
 
+    // 눈깜박임에 따른 페이지 up 함수
     public void change_up_location(){
-
+        // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
         if(location[1] < 0)
             location[1] = (-1)*location[1];
-
-        scrollView.scrollTo(0, location[1]-30);
-
+        // 기존의 위치에서 60 이동
+        scrollView.scrollTo(0, location[1]-60);
+        location[1] -= 60;
     }
 
 
@@ -223,29 +226,20 @@ public class Textview_activity extends AppCompatActivity {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onLeftEyeClosed(LeftEyeClosedEvent e) {
-        // if (catchUpdatingLock()){
-      //  Toast.makeText(this, "왼쪽감음", Toast.LENGTH_SHORT).show();
-       // change_down_location();
-
-        //}
+        change_down_location();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
-        //   if (catchUpdatingLock()) {
-       // Toast.makeText(this, "오른쪽감음", Toast.LENGTH_SHORT).show();
        // change_up_location();
 
-        // }
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNeutralFace(NeutralFaceEvent e) {
-        //   if (catchUpdatingLock()) {
-      //  Toast.makeText(this, "두눈감음", Toast.LENGTH_SHORT).show();
+
         change_down_location();
 
-        // }
     }
 
     private void createCameraResources() {

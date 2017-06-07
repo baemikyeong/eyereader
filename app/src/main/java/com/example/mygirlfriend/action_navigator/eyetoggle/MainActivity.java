@@ -23,15 +23,9 @@ import com.google.android.gms.vision.face.FaceDetector;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final int REQUEST_CAMERA_PERM = 69;
-    private static final String TAG = "FaceTracker";
-    private FaceDetector mFaceDetector;
     private CameraSource mCameraSource;
-    private FaceTracker face_tracker;
-    private int check;
     private double left_thres = 0.0;
     private double right_thres = 0.0;
-    private Button textbutton;
     private boolean isRecording = false;
 
     @Override
@@ -39,8 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        check = 0;
-
+        // 초기화 버튼을 통해 사용자가 값을 입력한 경우 그 값을 저장
         try {
             Intent intent = this.getIntent();
             if (intent != null) {
@@ -73,9 +66,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
-        // ImageView imageView = (ImageView) findViewById(R.id.action_bookmark);
-        // imageView.setImageResource(R.drawable.ic_action_bookmark);
     }
 
 
@@ -140,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
 
             Toast.makeText(this, "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "정확도를 위해 두번 이상 초기화 작업을 해주세요 :)", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Initialize 버튼을 누르고 약 3초간 눈을 감아주세요", Toast.LENGTH_SHORT).show();
 
             startActivity(intent);
         }
