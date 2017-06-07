@@ -57,20 +57,16 @@ public final class FaceTrackerActivity extends Activity {
     private GraphicOverlay mGraphicOverlay;
     private GraphicFaceTracker face_check;
 
-<<<<<<< HEAD
+
+    // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
     public static float right_thred1=0;
     public static float left_thred1=0;
-=======
+
     // 초기화 여부 판단
     public static boolean initial_check;
 
-
-    // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static double right_thred1=0;
-    public static double left_thred1=0;
-
     // 크기 저장을 하는 함수 호출을 위한 변수
->>>>>>> 27ae3a02d3441105c59e42c128286f987226536b
+
     private int check = 0;
 
     private static final int RC_HANDLE_GMS = 9001;
@@ -114,7 +110,7 @@ public final class FaceTrackerActivity extends Activity {
         } else {
             requestCameraPermission();
         }
-       btn1.setOnClickListener(new View.OnClickListener(){
+      /* btn1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 editor1.putFloat("valueL",left_thred1);
                 editor1.putFloat("valueR",right_thred1);
@@ -126,7 +122,7 @@ public final class FaceTrackerActivity extends Activity {
                 //text1.setText(String.valueOf(a1)+"_______________"+String.valueOf(a2));
 
             }
-        });
+        });*/
 
     }
 
@@ -207,12 +203,27 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         if(initial_check == true) {
-            intent.putExtra("Left_thred", left_thred1);
-            intent.putExtra("Right_thred", right_thred1);
+
+            editor1.putFloat("LValue",left_thred1);
+            editor1.putFloat("RValue",right_thred1);
+            editor1.commit();
+
+            float LV = intPref.getFloat("LValue",0);
+            float RV = intPref.getFloat("RValue",0);
+
+            intent.putExtra("Left_thred", LV);
+            intent.putExtra("Right_thred", RV);
         }
         else{
-            intent.putExtra("Left_thred", (double)0.5);
-            intent.putExtra("Right_thred", (double)0.5);
+           /* editor1.putFloat("LValue",left_thred1);
+            editor1.putFloat("RValue",right_thred1);
+            editor1.commit();
+
+            float LV = intPref.getFloat("LValue",(float)0.5);
+            float RV = intPref.getFloat("RValue",(float)0.5);*/
+
+            intent.putExtra("Left_thred", (float) 0.5);
+            intent.putExtra("Right_thred", (float) 0.5);
         }
         left_thred1 = 0;
         right_thred1 = 0;
@@ -378,7 +389,6 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         public void return_check(){
-            double r,l;
             float r,l;
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
@@ -394,6 +404,7 @@ public final class FaceTrackerActivity extends Activity {
                 right_thred1 = r;
             if(left_thred1 == 0)
                 left_thred1 = l;
+
 
         }
 

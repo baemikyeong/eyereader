@@ -5,29 +5,22 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
-
-import android.support.v7.app.AppCompatActivity;
-
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
-import com.example.mygirlfriend.action_navigator.eyetoggle.event.LeftEyeClosedEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.RightEyeClosedEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.tracker.FaceTracker;
 import com.example.mygirlfriend.action_navigator.eyetoggle.util.PlayServicesUtil;
 import com.google.android.gms.vision.CameraSource;
-import com.google.android.gms.vision.Detector;
-import com.google.android.gms.vision.Tracker;
-import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 import com.google.android.gms.vision.face.LargestFaceFocusingProcessor;
 
@@ -232,11 +225,11 @@ public class Textview_activity extends AppCompatActivity {
         }
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+ /*   @Subscribe(threadMode = ThreadMode.MAIN)
     public void onLeftEyeClosed(LeftEyeClosedEvent e) {
         change_down_location();
     }
-
+*/
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
        // change_up_location();
