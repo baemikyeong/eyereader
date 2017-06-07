@@ -127,6 +127,14 @@ public class Textview_activity extends AppCompatActivity {
         location[1] -= 60;
     }
 
+    // 책갈피 추가함수
+    public void book_mark_add(){
+        /*
+        * book_mark의 전역변수 설정 후, db에 저장 필요
+        * book_mark = helloTxt.getLocationOnScreen(location);
+        * if(book_mark < 0 ) book_mark = (-1)*book_mark;
+        * */
+    }
 
     /**
      * Check camera permission
