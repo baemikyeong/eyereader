@@ -122,7 +122,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         } else if (id == R.id.action_bookmark) {
 
-        } else if (id == R.id.action_mic) {
+        } else if(id == R.id.action_plus){
+            Intent intent = new Intent(this, TextviewSdcardActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.action_mic) {
 
             if(isRecording == false) {
                 startService(new Intent(this, AudioService.class));

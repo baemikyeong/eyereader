@@ -3,1074 +3,741 @@
 
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1436f178fd8581dc9826fa0e043cc5d86e2ee813/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3207acdd965660666dc76e7b57ffca0f970cfc85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/f2215bb9641623c5953cd9964cb6f384d4c955d8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f31c67c151c2b23e4b9d4324419fde07e426f89d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/989abc9af773e4323b2acce586d2fb458bf03119/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec60960051c9f3480bb43565581ff9a59a47e88d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/0e1ad9738c49b13d9601ce4bc2b5eeb399375746/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44098e691b36776973374ac03afe0225b17f8a74">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8451c0f8e1360f515e8105e992c56ca9f27f9d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3e39c1a1f036bcd80bbd5881d0216564179b17e0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2799da9088aca312e52d4085055099efdb57e4a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b40e0ca43cc59f275a6f7018b3a8c8ef3f41eb52/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68aaf157796dc47d61c097e732383004f2f26c5b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/61615780b4e68d5c0bcae8e86a87a36deb74b5f1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12032271e6be735e811ad529cb08ff066c381640">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb8d6460bff6f34592edba7bc973ef6dd9dd7577/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6414dd7583fd60d54184a4f25cf5f89da82d5dfc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/56759014c6c9e4077b6fb3f106ef8d0a9861429c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fae90cd15b7ddca31c3cd85dc96668f750de094a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2884b345fc943b3fb96fc50b7a4cc534a139bc4a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e303f77efa90484f2128b411416b902dfa898aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/69b80c7e399a6e0711f0aab8e08f8d9395ef9495/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7dc6e883086e1975712d57c5529b437682610e25/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/550fc3d8d5fc8d9750c91888326fb501933154ce/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e59d002824cb95ec2053bd450d5b22d692f7409/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32c97d2268d1046aff790bb7b1055f5830c000b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/17c4001e5616a3c2c83eedca3b4c86000a806b81/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10aa85906455f5bbe16155ecc81fc6266c2427c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a50514adaafdeea0d1d95cd8c74c474a7ed0ab7c/output/jars/classes.jar"
+        jar="/Users/Sky/.android/build-cache/5687202b72e9816d2247d714f58a52f5f5d2f674/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b0601a2a2f77d24e28aea7608a4a65017956570/classes.dex" />
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e9dd0642811524f1d59b5450fdb3fe3d805d4f36/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/03ae33b996829208c865b5bd844b4cf8aeb87e89/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f51d7dc281e8c11cd1c08369ed0e1c3dad8031f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/e7a26614e5aa082bbddcd524e3ba1e0436843c91/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee58291f056cb4c62fed39ed74e26b3d571b797e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77d71dcd4cb4fd15ac21e18dc7974f7db9f98a6c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2898b7d117250be6e27233c2553402b13c0f43c2/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7db42714ee55118876fb76f90a4e368df61e1baf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/07c65e93abe0eb14aa2816b061001900568662b9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb004ea36f8802bad30000e286c177691740a322">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ad13befb459b502a2b5b64a210efbb2f92f598e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3efe79e204d5bcf0c21fe6100bace634982fbef9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_48037f07cc3cddaff2094884eacd27f162c7d08a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b08fa38a659b402b247a7603ea4e11287fde43d3/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e18eadf568721185117c8d276176bc408d4feac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c7610153359e7c63cf0b32f3c834616f7c4c04fd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/affc5ba1adeb2163da30f992600d5aa1499e8e92/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c78140db45ee01e86c97a171535cf3988db2f5af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2a60de4895853bf485f925b1d4736047917b62cc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_455ca11d5dd540f5697e39802cf961cb6640ae89/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/324aaec1dcf1418d588e4acf727345902ad7ca98/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="888983f51cf34f57a93ff16832552f2f15937212">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c2d43ad0211f659b2713e1bd54b86df71dd1025/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/0e1ad9738c49b13d9601ce4bc2b5eeb399375746/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44098e691b36776973374ac03afe0225b17f8a74">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8451c0f8e1360f515e8105e992c56ca9f27f9d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/f2d4330d0ff4ffea3a1fb0c3005f8f65c1458ef1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f74bd5366b60ce28c56a9790dbb2db9d6d1ec45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/33c6ddd03c531525a0fbdfd8976dc42d67d445de/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_114b4d75d4bf17cf4909c81bb76b7393b30df1dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_4f488b241e42698a0d8b2d401b2d0ebd4454ee5f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/7b0d03c8fd9bfc58773e9caaf1a81a5c94997920/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6c74dab42788b458960618238f338d324b6f0656">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ebe58871ebd29ac1dcb54638c96e1166a7038655/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2a85a0b2092b863dd1c55448f8565187b02f618f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa38f44f33f6333663ef7898411811de6d2b6116/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2ad1f42ca1ca001446facdb89752e0da6e69b53a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_226f7730b291d9679f24c37ded935b898ed92621/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_46027efa89ddf36d3db8230ea939918168433fc3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1996c5dbefc61708aac15aa7bdd6242f254ae098/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d0549ce8b9e5190589c861fcf2b2dbf2d87756a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1f18b4ef7094616493163c57dcb8edac630fc0a0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4e684205744f814a73b7752545e0661330415c9e">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8af886897638499e04f080b2f38de18f05abb8c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/989abc9af773e4323b2acce586d2fb458bf03119/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec60960051c9f3480bb43565581ff9a59a47e88d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fed58c9daabc82c4185527b010c6e7194563e82d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9c51a9df329b67b9e0ba2202a9c1262b3a1170a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/69b80c7e399a6e0711f0aab8e08f8d9395ef9495/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7dc6e883086e1975712d57c5529b437682610e25/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b40e0ca43cc59f275a6f7018b3a8c8ef3f41eb52/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68aaf157796dc47d61c097e732383004f2f26c5b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2884b345fc943b3fb96fc50b7a4cc534a139bc4a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e303f77efa90484f2128b411416b902dfa898aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/03ae33b996829208c865b5bd844b4cf8aeb87e89/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f51d7dc281e8c11cd1c08369ed0e1c3dad8031f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32c97d2268d1046aff790bb7b1055f5830c000b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26db0a4e7c73cce10649812dd3e58317c61290a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/29f6da6ed381c32507b0bc7b3906c141e267a595/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be810593d52ba575c9d061f695772b00a98c9701/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/8ddc769e1d16da563257bf48f7f2a722c9c6f760/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44c83531698c4c395f957effceaabe2159e31463/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/edfed5e535ff435a19f5eccf48ccbab8b5bec7cd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e6caa27e0eb6b00e2a2d5931ea695c72ff0e7f29/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/e9ddfae28ce0da818fed9ffcd8898cb2f1dc11b1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd3dfcedffdfce8469ee8291defcc7c187d3f4b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2ad1f42ca1ca001446facdb89752e0da6e69b53a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_226f7730b291d9679f24c37ded935b898ed92621/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/7d278a947237e108f1add793b08b1d4a710c1a35/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88f8f636938d820cc7cc6a5ba7a7f3038dffa754/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/7b0d03c8fd9bfc58773e9caaf1a81a5c94997920/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6c74dab42788b458960618238f338d324b6f0656">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ebe58871ebd29ac1dcb54638c96e1166a7038655/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/33c6ddd03c531525a0fbdfd8976dc42d67d445de/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_114b4d75d4bf17cf4909c81bb76b7393b30df1dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/07c65e93abe0eb14aa2816b061001900568662b9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb004ea36f8802bad30000e286c177691740a322">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ad13befb459b502a2b5b64a210efbb2f92f598e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/14da253cc2956709c88c644c6694c3d9a24e2313/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e814e57681d3775a063770fa527d1728c4d04ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/c14f1342329a8e4832b45b1a755226f930327d28/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dea2316ad926a6efa5d00cc3a15625e2490c5254/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/87cda31fae556d1301272e08091a22ce4b422295/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aaa6fedaf71de440d042168c0861a831cc1c4286/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/9046c130e08e4680627422915b4edc13a81948c8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12a9a7ce339ae3fcda8f91e137814bcd5bff6204/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2a85a0b2092b863dd1c55448f8565187b02f618f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa38f44f33f6333663ef7898411811de6d2b6116/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/82f381007eb298467e1e20c6eaefb295399c0682/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91c503c0439156b5773d21f9eac36144a85cc53a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a255ef5052c3cdf51772d506ddaafe47421fd0b9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88d600ecada04af48e4f5b06635d67aeeb04da15/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3da36ba0189157ddf290044eea2c8b8769163b5c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa6b68fc50c80415ad61aa5efb53e9974c3d1ae3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1416bec718223789a9346dcd232c6b24b999a472/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43206552f8b678672eb34fdae1921a75cf4c45fc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1996c5dbefc61708aac15aa7bdd6242f254ae098/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d0549ce8b9e5190589c861fcf2b2dbf2d87756a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fed58c9daabc82c4185527b010c6e7194563e82d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9c51a9df329b67b9e0ba2202a9c1262b3a1170a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/8ddc769e1d16da563257bf48f7f2a722c9c6f760/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44c83531698c4c395f957effceaabe2159e31463/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/eyereader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfdb4926e28291311f7dfe14c22c5ab48d338d90/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/jars/classes.jar"
+        jar="/Users/Sky/.android/build-cache/2c62977249e0dc1e72462b69af3cc18f2b36cac8/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32cfb9c15f5aac606ac8c688bbbae79d6a22543f/classes.dex" />
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65e0b2dd5e2502ed2fad61f3b5dec07e104a3a1a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1f18b4ef7094616493163c57dcb8edac630fc0a0/output/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Sky/eyereader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4e684205744f814a73b7752545e0661330415c9e">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8af886897638499e04f080b2f38de18f05abb8c/classes.dex" />
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a634e32ebe06bcfd102ca445da82f400ef31df6f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
+        jar="/Users/Sky/.android/build-cache/a4b325f2b16c409ccb13879fb53be4ccf783dea5/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_e2ffb38af8412f4c99b3dc82a51d5ae535e1d244/classes.dex" />
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f30d53c4c066a73be8b9ef7c21465d0561b6fa0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3da36ba0189157ddf290044eea2c8b8769163b5c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa6b68fc50c80415ad61aa5efb53e9974c3d1ae3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/82a12f25437c6d430ad1adacd90aad01fef0b2c9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_629dba7af15275fc14b6a8feea3af3585677a704/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/eb737b0f7cedeeb500ce8516d323ef52522a30bb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb115a110992b254f767f337da233071f6f940b8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba9728f24142a5bd655b40fb904f8aa9cd577c57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/bed19a16dc338326df9a86e20eaecf6b36e396c4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cce5792fa30ee8520620f298bf920309423b180f">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_11f58b5369c673ba33ccb472e909aa58eae06519/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd8d361c692ca0a4d2e4bfc0248ca401225b3375/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/c6a9e9daf660425f451cdecf45cde57764af258a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e591127e29f7f727f68ef19dd796021cf7b92e72/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/jars/classes.jar"
+        jar="/Users/Sky/.android/build-cache/4c78e2c86edfb21c0e498c4c13da4d6736ae26c4/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26db0a4e7c73cce10649812dd3e58317c61290a8/classes.dex" />
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_471b48ae3f59fa3b48da2e9b1d9ae6cccd916e08/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/e9ddfae28ce0da818fed9ffcd8898cb2f1dc11b1/output/jars/classes.jar"
+        jar="/Users/Sky/.android/build-cache/3dd8094a843724048f878b6d08f59d8f116fc6fa/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd3dfcedffdfce8469ee8291defcc7c187d3f4b8/classes.dex" />
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64969fb2ae9584e8157de74586586514ad771aa6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/5be960e1808da1e1fa701d709cb1b32f2721c627/output/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Sky/.android/build-cache/7a8c438e359db6a236d6006bc89385ddaefd24b0/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a43c6681cc26a2afd1c079525042079d8f5f6b1/classes.dex" />
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7579547568e9b96f04c7918e263f17f77aebc208/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/5349c711704a44dc74fdd3acf9e64f6b27df9522/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf35562211e6dfb9f784b6ccdd472421c971a515/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/ad56d8d800cef04e7e0bafdf6f6e4a078449ffba/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d53e79e1a42856327b10123b1840f8755a67f06a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/82f381007eb298467e1e20c6eaefb295399c0682/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91c503c0439156b5773d21f9eac36144a85cc53a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a57f50f973437c2d71ff8516dd342309a4f3be8c/output/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Sky/.android/build-cache/41f548872d319ec208e24a56e1aebcbb6111eb61/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb055d939dc430cb772a5acad1f9209efc4dc017/classes.dex" />
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4498d11cdd14749ee305c1ac7eaa97993d92ebc0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a255ef5052c3cdf51772d506ddaafe47421fd0b9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88d600ecada04af48e4f5b06635d67aeeb04da15/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3733491c8c7cb0f00c9883b26aa08f006d3bc009/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e526577d84676278cda2a87dc4068e877228a1ec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/9046c130e08e4680627422915b4edc13a81948c8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12a9a7ce339ae3fcda8f91e137814bcd5bff6204/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/8670218f52b77a57bfc5b9f8bdb6afccb687b8d5/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c084760e1de29820170bff045e4e75c2e7e99c8b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1436f178fd8581dc9826fa0e043cc5d86e2ee813/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3207acdd965660666dc76e7b57ffca0f970cfc85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/f2215bb9641623c5953cd9964cb6f384d4c955d8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f31c67c151c2b23e4b9d4324419fde07e426f89d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b4f4a34b4d4e9d913584ca4e874c88f5bd0df764/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b82c18861cd2113602f935d0dbe102318b91d79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/550fc3d8d5fc8d9750c91888326fb501933154ce/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e59d002824cb95ec2053bd450d5b22d692f7409/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6414dd7583fd60d54184a4f25cf5f89da82d5dfc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/bed19a16dc338326df9a86e20eaecf6b36e396c4/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cce5792fa30ee8520620f298bf920309423b180f">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_11f58b5369c673ba33ccb472e909aa58eae06519/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd8d361c692ca0a4d2e4bfc0248ca401225b3375/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/82a12f25437c6d430ad1adacd90aad01fef0b2c9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_629dba7af15275fc14b6a8feea3af3585677a704/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/61615780b4e68d5c0bcae8e86a87a36deb74b5f1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12032271e6be735e811ad529cb08ff066c381640">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb8d6460bff6f34592edba7bc973ef6dd9dd7577/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3e39c1a1f036bcd80bbd5881d0216564179b17e0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2799da9088aca312e52d4085055099efdb57e4a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/14da253cc2956709c88c644c6694c3d9a24e2313/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e814e57681d3775a063770fa527d1728c4d04ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/eb737b0f7cedeeb500ce8516d323ef52522a30bb/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb115a110992b254f767f337da233071f6f940b8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba9728f24142a5bd655b40fb904f8aa9cd577c57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/c14f1342329a8e4832b45b1a755226f930327d28/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dea2316ad926a6efa5d00cc3a15625e2490c5254/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/affc5ba1adeb2163da30f992600d5aa1499e8e92/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c78140db45ee01e86c97a171535cf3988db2f5af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/1416bec718223789a9346dcd232c6b24b999a472/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43206552f8b678672eb34fdae1921a75cf4c45fc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b08fa38a659b402b247a7603ea4e11287fde43d3/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e18eadf568721185117c8d276176bc408d4feac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_e2ffb38af8412f4c99b3dc82a51d5ae535e1d244/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32cfb9c15f5aac606ac8c688bbbae79d6a22543f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/eyereader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d6e7fddb6e7fc89aee068bd7b1b1fbeaa31ff86">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_72e044e3e5129e2fbeef3aaf2d0c84304e5d3fb9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/3efe79e204d5bcf0c21fe6100bace634982fbef9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_48037f07cc3cddaff2094884eacd27f162c7d08a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c7610153359e7c63cf0b32f3c834616f7c4c04fd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/2898b7d117250be6e27233c2553402b13c0f43c2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7db42714ee55118876fb76f90a4e368df61e1baf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/17c4001e5616a3c2c83eedca3b4c86000a806b81/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10aa85906455f5bbe16155ecc81fc6266c2427c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/e7a26614e5aa082bbddcd524e3ba1e0436843c91/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee58291f056cb4c62fed39ed74e26b3d571b797e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/5349c711704a44dc74fdd3acf9e64f6b27df9522/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf35562211e6dfb9f784b6ccdd472421c971a515/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b4f4a34b4d4e9d913584ca4e874c88f5bd0df764/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b82c18861cd2113602f935d0dbe102318b91d79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/87cda31fae556d1301272e08091a22ce4b422295/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aaa6fedaf71de440d042168c0861a831cc1c4286/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/8670218f52b77a57bfc5b9f8bdb6afccb687b8d5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c084760e1de29820170bff045e4e75c2e7e99c8b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/324aaec1dcf1418d588e4acf727345902ad7ca98/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="888983f51cf34f57a93ff16832552f2f15937212">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c2d43ad0211f659b2713e1bd54b86df71dd1025/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/a50514adaafdeea0d1d95cd8c74c474a7ed0ab7c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b0601a2a2f77d24e28aea7608a4a65017956570/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e46ab57e123c78cb03378f09a4684983525ab61/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/b2a193924a13928680ef93d333e467151a51338d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c065f131df98c171fe28fbdd09bf00c968a0b815/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dayeon/.android/build-cache/5be960e1808da1e1fa701d709cb1b32f2721c627/output/jars/classes.jar"
+        jar="/Users/Sky/.android/build-cache/cb0e6fff231a16d3b7eaedaf2348f6dfdcb01b5e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a43c6681cc26a2afd1c079525042079d8f5f6b1/classes.dex" />
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be623f75456b030cc79921c941bbca4e8692ab8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.annotation-api-1.2_a93903dd8e9d18c4cc9f99b0507c9230892c85d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/a11a6177efc477307186acb4e199994c25c37f32/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf32eb03a8b5485c96426ab9085d23e3b24ce1cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_6106c242bc765836c893165ab90cc5437a2a7d07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/fe4796bc6b25ef9e59d34b7ebe30f0edea16efd9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4dc586a331b6cd1385e88ca17678dbe58fc6bf28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/76990d3aad5d56cd2547f76812f92928cd50dcbb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_478bb1e8a9a5abb2760252dcf174731858e3f4b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/cabfd77f678df603aeb53cf877ec32f75694d7e0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb8ec864123046d57b590da791495c8a0aa87caa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/63b0c95c261548487d32afc259a3bd9823847265/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cc5234807b68be4784e54989fd7697ac130984e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/cf0937e867322f28380cf8e2fb44c1df886d6242/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7cdc440795c37eaf6dd1aa83c6f0a8913334cac4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/e6eaf8b7430f38ab4fcd6a2680cc367c7f75f85d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f57959a7b04af3c0914e847f3f88ca0bfa019da3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/018f4e6c7b3c0b29948284e3af8e632dbab7aa34/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44b63b56aaa5c5a32f1708d4066c3d70087491a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/junit-4.12_ab5ec3556fc3d07e774db979b53655ec13418232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/b21b6b61bb574dbe7d741ed13da1770f1a9f88a9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_27908259dadc518678286f45dab3b285663d8993/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/568c5a2c32c5d4890f50eaf8815de91bc072de73/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de774b28f8d7bdddac0b67680b09c82f72c15d52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/cabe463f71cdcd04b9c67faa99d9943cef8c8c4e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8d581b4bc8764350ccbc41299b922d35490710b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/ddb82bfe13d8c0a58b3f896555eb8e695f25dc78/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf6a51b1fe1566985299c8acec60cc2a12826126/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_0e8e0240cada789bb549df787cf72783087a87e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/2236690cb6b4010e77c0523a70a59797fa26fe5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_521bb959dad46659a6d6115d22b5b3fb02162d9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/bdbfd3aa297ca259764cdcade701c6d9f0cfe8df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13fa969efce46481851a1989bdc2522362326de4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/0dede45a8b5dcfa4cac737edf060847bcc13f4fb/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_d613aed2cab0b0c99441baa91d30cf4627fdbe95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-core-1.3_611341dcb15cd3b049444b04dcd76f90112ab303/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/869af0520f888c714a76c2a528794fa204b2cf1d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88877639c3a15e3fb8d09494f945ba92c1be8edb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/c9adbecb35b293ac039fe5bf3508815c85cc4cd1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56d1bde5d2a30c87f3fbd8d8347a4b0e708303eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/javawriter-2.1.1_1c632f34a26e2fc6cf01b3ce8246471dd8dda0b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/ec865994ab17dfbe778d8afc5e691f5a4a5bc055/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7d89652e15a14aebc0d7e87ed261f7a66ce33d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/04013eaf8f0151a0a0d51cb8f1f2b0df1515c2b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76acb6e5ff9b76de23f47cc712a240a265673b4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/40ce9dd8dd4389eb0748f102d494191dfaa09904/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd8c93ad31813a32ccb9f2fdfc5e8902663d16c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-library-1.3_1475c88cd3a4091a5936a18018aef63b8a27fea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/55a233c2c751222e48d51c8659863b0b6500585d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12972ad9cbc0d93aa8dd4ec5401f818cfc3927e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/5ed7bde351c93485accd5aee154dad2382f6e4ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e8707e97a6a394c83754a95daa5273562e9f2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/fd9d835ce78565dc53cae68abe0f69d08ba053e6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf7c7a46409d5a6f111a378ecb23620492ea0c9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/b7701ae3c8fc93261d6a5ccae40e357f6a549079/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_481889e95b013abced5d1c54571ced2669614e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/91f24ba273a2f695e4434bdbf6567945e91c3697/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6ef79c44e395191b2666f1962db5cd582e72c52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/e2b031ef91e932ed11d61347898f29b54d188955/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30313f3663a5ecff12b29ebabde6f78d9d62408a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/3c21b0fd709e7cc170bf6083b01a490c36953567/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7b255e7791c3f55f4af29cab13910d323c281067/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/8163b848158b533d02ef6b4c53bbb52cfbf2ac59/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8344b5646654355fea1156d5689d1b1de78225df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_669b56f14a534ea95cc97bea05ad8604e90a8bcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/d40eb37330c3e2216df4682e9247798a9188f81d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df981dc50453a136f6881fa116579918b21e45b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/b64f5bae0ff9cc5350ee91acd9d4d4f6e6ac859c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24c0fcb69e816326a620aeccf147f108aa99ba96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/cb7c8d18074ede86301db52185393280b6c03646/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a0d8bfb247048118027effa99a69f3e7214f771/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/73c3abd36b64cdab6c0800f91f7e734639b9f59a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_890ddf6a79ec4e4fe8518253826134c3fa282910/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_e44fa2cea883e6e7d51d176e91d821734fa6ee08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/bcbcec7b71d3be2620d7ac865afecd8e84e8f0a9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_401a599e4408dcd5058cde47030d04d5066bf953/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/0dede45a8b5dcfa4cac737edf060847bcc13f4fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_861c94722f1a09391214496c464b84bbdf0e580e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/303413b4f7a6306b4518a9b70b9e3dfff188136e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97247ae9eceaa24f4b7521b36317ffd62c14792c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/c1c41dcf8de96d2a224f3926e7d41e5e25fcc70a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34c33f59ad1d56bb549f8954c7d9c2ce3bb85898/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/573022f613a2dcd7884538bcf3f20c928fb18daa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b386b2d54a5db95dc5816ba9881672192b39b6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/bedac419f4c8f2a9c64b078a80c0fa20ca812bd9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d6d6608e222d6752fda823ffea2afba48fb4ce3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/7b355dc66b4d6b23afb57e50f5fec06b7d556f05/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ce5212135ad678b471af606f20b0813cdb59d03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/3defbf4473e1fbdc5f14aa0b065f9b569e43d936/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e682fb1b2cf96fe40e424e05a738fb0512c254cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/ab19c30e22f5b9670f5bff5b1ad8bf7efbbdeb7c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_712d9456ebebb9c45d476bda01a0a091bad4dc30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/14f10b696c70bfe65ef2d2871e830c66468a9223/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3a85e3b97952b91b23783af1cdf20d036705a041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/4525b2bd28b3ae050d565253be6c0ab68bcdcff3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c175296a0e621ddbf8e957003cf6ab89580ee420/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/6059d1a1a7411b3ae94f75b957cc005699847933/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47ff55f3c4a51957326baae1e4e3397c5aca0bae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/0948be78dc5922e648b2ec9ab2ebfc32f25fa7d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d57c195babfdae353c9f750320e1b99cc98f3a30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/f48e31b73b62dc04f7990b7159bafd2845b8b9fd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b37abaab137c2e1312d9d5bd56ab145ff2d471a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/7cebf6e5834f068f9f76a5b16276dd3ef7f87999/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdafb3b9757de398b8fbfcb59a0916b7587e4a02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-integration-1.3_3bda312569a51582f7ecaf769c69c3f1ba42405e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/ef5d0dc90c5dec9323142eae6fc5b0be6bda3fa0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d256f125154f1ff56be4f945668e6017f4d647e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/357bfa50b3ee82a7d11a136490c762af856dacae/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_36c3cee3ab8ee8d897e5e181809c38b703f54474/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/1f79523cc0d031fbebeaa0f8e848552ed1ccf482/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_327cb1a48ee8f7a7a1e6909d5931756f34773340/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/078c8b4656907bcbe734a9a4f1f1f6d291ea3b07/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d2283167a2e8f83a99ed7fc9524f3bc320bca18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/9ebba5c49d471ddc3f80af911aced1609e9219eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2dadbdf7091852c341e66216ad082bc5319ed12c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/2877234694e27c2d4915322f4b77b6b91979e146/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03dba1685d7049e4ca89e8e91d969d2f92345f5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/48cdaf1a368361b70dee1d6122794800becf7e71/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d4ad1d018dc1a787ef2c6af7dc43dba2bee82eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/7ead45dc808d8e8c63f8021b058a1079b1a03f94/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d131d472c1a0ff19bc21336e7fe0adf41ad6e92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/342347363311f3c0a57c866032c1c527d55649e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ba5d144d667ba6046b1bdc62f3b352fa07de3c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/6544ab96993c1b360a7952895fe68d5d6c50cf33/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d497644cf1e164049007147566034b70016ec12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/601f2ba3180e40b593cc74e09faa68fa81dcef35/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_50fe34f6320faaa5972862f4c9590360c6911131/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/eyereader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7dfb930a7d57433e1a0613829228145cee1275a9">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e70b3775dfde8798587b304833fe2b5a0d31c7a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/3cabe96960260106e138138173b7c3a200f54f3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0695370d4bb96dd3b78fc9af9bf86633cb63cb7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/1ee8472dddde763ca1c6f2ffff1360d3d560389c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b21598b9f8420c5a67f0df039e4a4a6164c9acc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_442063baffb5d4090f4f33aa4032e0ff216d6e8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sky/.android/build-cache/625197a4283c6e1b24f55cb5782f091d53f49ff6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/Users/Sky/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0cff26e824bdfe311772d8ac4d851f6bf38fb2c8/classes.dex" />
     </item>
 
 </items>
