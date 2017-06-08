@@ -54,7 +54,17 @@ class FaceGraphic extends GraphicOverlay.Graphic {
 
     public static double left_thred;
     public static double right_thred;
+    public static double leftClosed_size = 0;
+    public static double rightClosed_size = 0;
     private int face_check=0;
+    private long blink_time = 0;
+    private int check_time = 0;
+    private long indivisual_blink_time=0;
+
+    public void set_closed_size(double l, double r){
+        leftClosed_size = l;
+        rightClosed_size = r;
+    }
 
     FaceGraphic(GraphicOverlay overlay) {
         super(overlay);
@@ -79,6 +89,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         mFaceId = id;
     }
 
+    void set_check_time() { check_time = 1;}
 
     /**
      * Updates the face instance from the detection of the most recent frame.  Invalidates the
@@ -96,6 +107,8 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     void setcheck(){
         face_check = 1;
     }
+
+    public long return_time(){return indivisual_blink_time;}
 
     /**
      * Draws the face annotations for position on the supplied canvas.
@@ -130,6 +143,26 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         if(face_check == 1) {
             canvas.drawText("성공", x, y, mIdPaint);
             face_check++;
+        }
+
+        if(check_time == 1){
+            if(leftClosed_size == 0 && rightClosed_size == 0){
+                leftClosed_size = 0.5;
+                rightClosed_size = 0.5;
+            }
+            long startTime=0, endTime=0;
+            if (right_thred <= rightClosed_size && left_thred<=leftClosed_size) {
+                //시간 측정 시작=0
+                startTime = System.currentTimeMillis();
+                while (right_thred <= rightClosed_size && left_thred<=leftClosed_size) {
+                    // 시간측정중입니다
+                    if(right_thred > rightClosed_size || left_thred>leftClosed_size)
+                        break;
+                }
+                // 시간측정 정지
+                endTime = System.currentTimeMillis();
+            }
+            indivisual_blink_time = endTime - startTime;
         }
     }
 }

@@ -21,12 +21,15 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.camera.CameraSourcePreview;
@@ -56,20 +59,29 @@ public final class FaceTrackerActivity extends Activity {
     private GraphicOverlay mGraphicOverlay;
     private GraphicFaceTracker face_check;
 
+
+    // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
+    public static float right_thred1=0;
+    public static float left_thred1=0;
+
     // 초기화 여부 판단
     public static boolean initial_check;
 
-
-    // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static double right_thred1=0;
-    public static double left_thred1=0;
-
     // 크기 저장을 하는 함수 호출을 위한 변수
+
     private int check = 0;
 
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
+
+    private Button btn1;
+    private TextView text1;
+
+    private SharedPreferences intPref;
+    private SharedPreferences.Editor editor1;
+
+    long indivisual_blink_time;
 
     //==============================================================================================
     // Activity Methods
@@ -86,6 +98,13 @@ public final class FaceTrackerActivity extends Activity {
         initial_check = false;
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
+/*
+        text1 = (TextView)findViewById(R.id.show_firstValue);
+        btn1 = (Button)findViewById(R.id.show_btn);
+*/
+        indivisual_blink_time = 0;
+        intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
+        editor1 = intPref.edit();
 
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
@@ -95,6 +114,7 @@ public final class FaceTrackerActivity extends Activity {
         } else {
             requestCameraPermission();
         }
+
     }
 
     /**
@@ -174,12 +194,22 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         if(initial_check == true) {
-            intent.putExtra("Left_thred", left_thred1);
-            intent.putExtra("Right_thred", right_thred1);
+
+            editor1.putFloat("LValue",left_thred1);
+            editor1.putFloat("RValue",right_thred1);
+            editor1.commit();
+
+            float LV = intPref.getFloat("LValue",0);
+            float RV = intPref.getFloat("RValue",0);
+
+            intent.putExtra("Left_thred", LV);
+            intent.putExtra("Right_thred", RV);
+            intent.putExtra("time_blink", indivisual_blink_time);
         }
         else{
-            intent.putExtra("Left_thred", (double)0.5);
-            intent.putExtra("Right_thred", (double)0.5);
+            intent.putExtra("Left_thred", (float) 0.5);
+            intent.putExtra("Right_thred", (float) 0.5);
+            intent.putExtra("time_blink", (long)1000);
         }
         left_thred1 = 0;
         right_thred1 = 0;
@@ -188,18 +218,22 @@ public final class FaceTrackerActivity extends Activity {
     }
 
     public void onClickInit (View v ) throws InterruptedException {
-        // 정확도를 위해 1초 뒤 한 번 더 check
+        // 정확도를 위해 두 번 check
         face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
 
-        Thread.sleep(500);
+    }
 
-        face_check.onDone();
-        check = 1;
-        initial_check = true;
-        face_check = new GraphicFaceTracker(mGraphicOverlay);
+    public void onClickInit_time (View v ) throws InterruptedException {
+        // 정확도를 위해 두 번 check
+        onPause();
+        face_check.mFaceGraphic.set_closed_size((double)left_thred1, (double)right_thred1);
+        face_check.mFaceGraphic.set_check_time();
+        onResume();
+        indivisual_blink_time = face_check.mFaceGraphic.return_time();
+
     }
     /**
      * Restarts the camera.
@@ -345,21 +379,23 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         public void return_check(){
+
             double r,l;
+
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
 
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
-            if( right_thred1 != 0 && r<=right_thred1)
-                right_thred1 = r;
-            if( left_thred1 != 0 && l<=left_thred1)
-                left_thred1 = l;
+            if( right_thred1 != 0 && (float)r<=right_thred1)
+                right_thred1 = (float)r;
+            if( left_thred1 != 0 && (float)l<=left_thred1)
+                left_thred1 = (float)l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
             if(right_thred1 == 0)
-                right_thred1 = r;
+                right_thred1 = (float)r;
             if(left_thred1 == 0)
-                left_thred1 = l;
+                left_thred1 = (float)l;
 
         }
 

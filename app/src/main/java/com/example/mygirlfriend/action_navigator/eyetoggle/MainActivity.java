@@ -1,6 +1,8 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -27,24 +29,34 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private double left_thres = 0.0;
     private double right_thres = 0.0;
     private boolean isRecording = false;
+    private SharedPreferences intPref;
+    private SharedPreferences.Editor editor1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);
+        editor1 = intPref.edit();
+
         // 초기화 버튼을 통해 사용자가 값을 입력한 경우 그 값을 저장
         try {
             Intent intent = this.getIntent();
             if (intent != null) {
-                left_thres = intent.getExtras().getDouble("Left_thred");
-                right_thres = intent.getExtras().getDouble("Right_thred");
+                left_thres = (double)intent.getExtras().getFloat("Left_thred");
+                right_thres = (double)intent.getExtras().getFloat("Right_thred");
                 Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
+                long time_blink = intent.getExtras().getLong("time_blink");
+                Toast.makeText(this, time_blink + " ", Toast.LENGTH_SHORT).show();
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
         }
 
+        float LeftV = intPref.getFloat("LValue",0);
+        float RightV = intPref.getFloat("RValue", 0);
+        Toast.makeText(this, LeftV + " " + RightV, Toast.LENGTH_SHORT).show();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
