@@ -49,22 +49,6 @@ public class FaceTracker extends Tracker<Face> {
         initial_check = true;
     }
 
-    long check_blink_time(){
-        long startTime=0;
-        long endTime=0;
-        if(leftClosed && rightClosed){
-            //시간 측정 시작
-            startTime = System.currentTimeMillis();
-            while(leftClosed && rightClosed){
-                // 시간측정중입니다
-            }
-            // 시간측정 정지
-            endTime = System.currentTimeMillis();
-        }
-        long indivisual_blink_time = endTime-startTime;
-        return indivisual_blink_time;
-    }
-
     @Override
     public void onUpdate(Detector.Detections<Face> detections, Face face) {
         if(initial_check == false) {
@@ -83,12 +67,26 @@ public class FaceTracker extends Tracker<Face> {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > left_thres) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres)
                 leftClosed = true;
+                else leftClosed = false;
             }
             if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres)
                 rightClosed = true;
+                else rightClosed = false;
             }
         }
 
