@@ -28,8 +28,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.camera.CameraSourcePreview;
@@ -73,13 +71,9 @@ public final class FaceTrackerActivity extends Activity {
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
 
-    private Button btn1;
-    private TextView text1;
-
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
-    private float a1;
-    private float a2;
+
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -96,8 +90,6 @@ public final class FaceTrackerActivity extends Activity {
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
 
-        text1 = (TextView)findViewById(R.id.show_firstValue);
-        btn1 = (Button)findViewById(R.id.show_btn);
 
         intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
         editor1 = intPref.edit();

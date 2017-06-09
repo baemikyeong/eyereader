@@ -1,6 +1,8 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -13,13 +15,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
-import com.example.mygirlfriend.action_navigator.eyetoggle.tracker.FaceTracker;
 import com.google.android.gms.vision.CameraSource;
-import com.google.android.gms.vision.face.FaceDetector;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -27,11 +26,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private double left_thres = 0.0;
     private double right_thres = 0.0;
     private boolean isRecording = false;
-
+    private SharedPreferences intPref;//이거
+    private SharedPreferences.Editor editor1; //이거
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
+        editor1 = intPref.edit();//이거
 
         // 초기화 버튼을 통해 사용자가 값을 입력한 경우 그 값을 저장
         try {
@@ -44,6 +47,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } catch (NullPointerException e) {
             e.printStackTrace();
         }
+
+        float LeftV = intPref.getFloat("LValue",0);//이거
+        float RightV = intPref.getFloat("RValue",0);//이거
+        Toast.makeText(this, LeftV + "    " + RightV, Toast.LENGTH_SHORT).show();//이거
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -153,7 +160,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_bookmark) {
 
         } else if (id == R.id.nav_webview) {
-            Intent intent = new Intent(this, WebActivity.class);
+            //Intent intent = new Intent(this, WebActivity.class);
+            Intent intent = new Intent(this, NewWebView_Activity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {

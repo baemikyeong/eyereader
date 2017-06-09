@@ -3,13 +3,10 @@ package com.example.mygirlfriend.action_navigator.eyetoggle;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 
@@ -39,3 +36,4 @@ public class WebActivity extends AppCompatActivity {
     }
 
 }
+
