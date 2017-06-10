@@ -17,7 +17,7 @@
         android:orientation="horizontal">
 
         <EditText android:id="@+id/txtURL" android:layout_width="252dp"
-            android:layout_height="wrap_content" android:text="여기에 주소를 입력해주세요" />
+            android:layout_height="wrap_content" android:text="http://" />
 
         <Button android:id="@+id/btnGo" android:layout_width="match_parent"
             android:layout_height="wrap_content" android:onClick="goURL" android:text="Go" />

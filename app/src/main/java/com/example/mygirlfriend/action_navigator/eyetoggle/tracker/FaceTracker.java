@@ -67,12 +67,26 @@ public class FaceTracker extends Tracker<Face> {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > left_thres) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres)
                 leftClosed = true;
+                else leftClosed = false;
             }
             if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres)
                 rightClosed = true;
+                else rightClosed = false;
             }
         }
 
