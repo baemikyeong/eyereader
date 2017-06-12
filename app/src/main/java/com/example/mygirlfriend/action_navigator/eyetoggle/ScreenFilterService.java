@@ -1,14 +1,20 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
+import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.PixelFormat;
+import android.net.Uri;
+import android.os.Build;
 import android.os.IBinder;
+import android.provider.Settings;
 import android.view.View;
 import android.view.WindowManager;
+
+//import static android.support.v4.app.ActivityCompatJB.startActivityForResult;
 
 /**
  * Created by sunphiz on 2014. 10. 3..

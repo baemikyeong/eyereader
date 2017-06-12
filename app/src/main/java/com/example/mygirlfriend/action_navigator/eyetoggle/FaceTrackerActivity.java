@@ -71,8 +71,13 @@ public final class FaceTrackerActivity extends Activity {
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
 
+
+
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
+
+    long indivisual_blink_time;
+
 
     //==============================================================================================
     // Activity Methods
@@ -89,6 +94,13 @@ public final class FaceTrackerActivity extends Activity {
         initial_check = false;
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
+/*
+        text1 = (TextView)findViewById(R.id.show_firstValue);
+        btn1 = (Button)findViewById(R.id.show_btn);
+*/
+        indivisual_blink_time = 0;
+        intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
+        editor1 = intPref.edit();
 
 
         intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
@@ -102,19 +114,6 @@ public final class FaceTrackerActivity extends Activity {
         } else {
             requestCameraPermission();
         }
-      /* btn1.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v) {
-                editor1.putFloat("valueL",left_thred1);
-                editor1.putFloat("valueR",right_thred1);
-                editor1.commit();
-
-                float outputL = intPref.getFloat("ValueL", 0);
-                float outputR = intPref.getFloat("ValueR", 0);
-                text1.setText(String.valueOf(outputL)+"_________"+String.valueOf(outputR));
-                //text1.setText(String.valueOf(a1)+"_______________"+String.valueOf(a2));
-
-            }
-        });*/
 
     }
 
@@ -205,17 +204,13 @@ public final class FaceTrackerActivity extends Activity {
 
             intent.putExtra("Left_thred", LV);
             intent.putExtra("Right_thred", RV);
+            intent.putExtra("time_blink", indivisual_blink_time);
         }
         else{
-           /* editor1.putFloat("LValue",left_thred1);
-            editor1.putFloat("RValue",right_thred1);
-            editor1.commit();
-
-            float LV = intPref.getFloat("LValue",(float)0.5);
-            float RV = intPref.getFloat("RValue",(float)0.5);*/
-
             intent.putExtra("Left_thred", (float) 0.5);
             intent.putExtra("Right_thred", (float) 0.5);
+            intent.putExtra("time_blink", (long)1000);
+
         }
         left_thred1 = 0;
         right_thred1 = 0;
@@ -224,18 +219,22 @@ public final class FaceTrackerActivity extends Activity {
     }
 
     public void onClickInit (View v ) throws InterruptedException {
-        // 정확도를 위해 1초 뒤 한 번 더 check
+        // 정확도를 위해 두 번 check
         face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
 
-        Thread.sleep(500);
+    }
 
-        face_check.onDone();
-        check = 1;
-        initial_check = true;
-        face_check = new GraphicFaceTracker(mGraphicOverlay);
+    public void onClickInit_time (View v ) throws InterruptedException {
+        // 정확도를 위해 두 번 check
+        onPause();
+        face_check.mFaceGraphic.set_closed_size((double)left_thred1, (double)right_thred1);
+        face_check.mFaceGraphic.set_check_time();
+        onResume();
+        indivisual_blink_time = face_check.mFaceGraphic.return_time();
+
     }
     /**
      * Restarts the camera.
@@ -381,21 +380,24 @@ public final class FaceTrackerActivity extends Activity {
         }
 
         public void return_check(){
-            float r,l;
+
+
+            double r,l;
+
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
 
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
-            if( right_thred1 != 0 && r<=right_thred1)
-                right_thred1 = r;
-            if( left_thred1 != 0 && l<=left_thred1)
-                left_thred1 = l;
+            if( right_thred1 != 0 && (float)r<=right_thred1)
+                right_thred1 = (float)r;
+            if( left_thred1 != 0 && (float)l<=left_thred1)
+                left_thred1 = (float)l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
             if(right_thred1 == 0)
-                right_thred1 = r;
+                right_thred1 = (float)r;
             if(left_thred1 == 0)
-                left_thred1 = l;
+                left_thred1 = (float)l;
 
 
         }

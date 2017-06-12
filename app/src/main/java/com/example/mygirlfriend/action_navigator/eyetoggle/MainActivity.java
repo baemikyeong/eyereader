@@ -1,9 +1,13 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
 import android.app.Activity;
+import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -20,37 +24,46 @@ import android.widget.Toast;
 import com.example.mygirlfriend.action_navigator.R;
 import com.google.android.gms.vision.CameraSource;
 
+//import static android.support.v4.app.ActivityCompatJB.startActivityForResult;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private CameraSource mCameraSource;
     private double left_thres = 0.0;
     private double right_thres = 0.0;
     private boolean isRecording = false;
+
     private SharedPreferences intPref;//이거
     private SharedPreferences.Editor editor1; //이거
+    boolean light;//초기상태는 불이 꺼진 상태
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
         editor1 = intPref.edit();//이거
+        boolean light = false; //초기상태는 불이 꺼진 상태
 
         // 초기화 버튼을 통해 사용자가 값을 입력한 경우 그 값을 저장
         try {
             Intent intent = this.getIntent();
             if (intent != null) {
-                left_thres = intent.getExtras().getDouble("Left_thred");
-                right_thres = intent.getExtras().getDouble("Right_thred");
+                left_thres = (double)intent.getExtras().getFloat("Left_thred");
+                right_thres = (double)intent.getExtras().getFloat("Right_thred");
                 Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
+                long time_blink = intent.getExtras().getLong("time_blink");
+                Toast.makeText(this, time_blink + " ", Toast.LENGTH_SHORT).show();
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
         }
 
-        float LeftV = intPref.getFloat("LValue",0);//이거
-        float RightV = intPref.getFloat("RValue",0);//이거
-        Toast.makeText(this, LeftV + "    " + RightV, Toast.LENGTH_SHORT).show();//이거
+        float LeftV = intPref.getFloat("LValue",0);
+        float RightV = intPref.getFloat("RValue", 0);
+        Toast.makeText(this, LeftV + " " + RightV, Toast.LENGTH_SHORT).show();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -106,18 +119,30 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.action_settings) {
             return true;
         } else if (id == R.id.action_light) {
-            boolean light = false;//초기상태는 불이 꺼진 상태
+
             Intent service = new Intent( this, ScreenFilterService.class );
-            if (!light) {
-                startService(service);//false면 불을 킨다
-                light = true;
-            } else {
-                stopService(service);
-                light = false;
+            if(Build.VERSION.SDK_INT >= 23) {
+                if (!Settings.canDrawOverlays(this)) {
+                    Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:" + getPackageName()));
+                    startActivityForResult(intent, 1234);
+                }
+                if (!light) {
+                    startService(service); //false면 불을 킨다
+                    light = true;
+                } else {
+                    stopService(service);
+                    light = false;
+                }
             }
+
         } else if (id == R.id.action_bookmark) {
 
-        } else if (id == R.id.action_mic) {
+        } else if(id == R.id.action_plus){
+            Intent intent = new Intent(this, TextviewSdcardActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.action_mic) {
 
             if(isRecording == false) {
                 startService(new Intent(this, AudioService.class));
@@ -154,14 +179,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         if (id == R.id.nav_document) {
+            if (mCameraSource != null) {
+                mCameraSource.release();
+                mCameraSource = null;
+            }
             Intent intent = new Intent(this, Textview_activity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_bookmark) {
 
         } else if (id == R.id.nav_webview) {
+
             //Intent intent = new Intent(this, WebActivity.class);
             Intent intent = new Intent(this, NewWebView_Activity.class);
+
+            if (mCameraSource != null) {
+                mCameraSource.release();
+                mCameraSource = null;
+            }
+
+
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {

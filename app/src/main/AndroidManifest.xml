@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -43,7 +44,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".eyetoggle.WebActivity">
+        <activity android:name=".eyetoggle.TextviewSdcardActivity"
+            android:permission="android.permission.READ_EXTERNAL_STORAGE">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,7 +65,9 @@
             android:exported="true" />
 
         <activity android:name=".eyetoggle.TestSharedPreferenceActivity" />
-        <activity android:name=".eyetoggle.NewWebView_Activity"></activity>
+        <activity android:name=".eyetoggle.NewWebView_Activity"
+            android:permission="android.permission.CAMERA">
+        </activity>
     </application>
 
 </manifest>

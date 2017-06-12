@@ -27,6 +27,11 @@
         android:title="light"
         app:showAsAction="always|withText" />
 
+    <item android:id="@+id/action_plus"
+        android:icon="@drawable/ic_action_plus"
+        android:title="plus"
+        app:showAsAction="always|withText" />
+
 
 
     <!-- 오버플로우 공간 안에 있는 "셋팅" 액션 아이템 -->

@@ -22,6 +22,9 @@
 
 package com.example.mygirlfriend.action_navigator.eyetoggle.tracker;
 
+import android.app.Activity;
+import android.content.SharedPreferences;
+
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.LeftEyeClosedEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.RightEyeClosedEvent;
@@ -42,6 +45,10 @@ public class FaceTracker extends Tracker<Face> {
     private double right_thres;
     private boolean initial_check = false;
     private Face mface;
+  //  private SharedPreferences intPref;//이거
+  //  intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);//이거
+  //  float LV = intPref.getFloat("LValue",0);
+  //float RV = intPref.getFloat("RValue",0);
 
     public void set_indi(double left, double right){
         left_thres = left;
@@ -67,12 +74,26 @@ public class FaceTracker extends Tracker<Face> {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > left_thres) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres)
                 leftClosed = true;
+                else leftClosed = false;
             }
             if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres)
                 rightClosed = true;
+                else rightClosed = false;
             }
         }
 
