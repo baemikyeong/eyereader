@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c8daa18-4a1c-4716-856a-900e70100cbf" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-06-11-00-41-19-612.rawproto" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-06-11-00-41-43-949.rawproto" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-06-11-00-52-19-133.rawproto" />
@@ -23,10 +24,13 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-06-13-00-22-06-279.rawproto" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_25.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/WebActivity.java" afterPath="" />
+=======
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
@@ -104,15 +108,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" />
+=======
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/NewWebView_Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/NewWebView_Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/ScreenFilterService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/ScreenFilterService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/Textview_activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/Textview_activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/tracker/FaceTracker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/tracker/FaceTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+=======
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
     </list>
     <ignored path="eyereader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -168,8 +177,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+=======
+      <file leaf-file-name="NewWebView_Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/NewWebView_Activity.java">
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -204,9 +218,18 @@
       <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="120">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
+=======
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1497110795719" expanded="true" signature="248896:248913" ph="..." />
+                <marker date="1497110795719" expanded="true" signature="248896:248931" ph="..." />
+              </folding>
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
             </state>
           </provider>
         </entry>
@@ -221,12 +244,26 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="FaceTracker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/tracker/FaceTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-375">
               <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding />
+=======
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1316">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <marker date="1497110787794" expanded="true" signature="2264:2432" ph="..." />
+              </folding>
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
             </state>
           </provider>
         </entry>
@@ -2716,7 +2753,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/ScreenFilterService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/NewWebView_Activity.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/Textview_activity.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
       </list>
     </option>
   </component>
@@ -2886,7 +2927,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="0123456789ABCDEF" />
+    <property name="device.picker.selection" value="Nexus_7_2012_API_23" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="FullScreen" value="true" />
@@ -3635,9 +3676,18 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497110795719" expanded="true" signature="248896:248913" ph="..." />
+            <marker date="1497110795719" expanded="true" signature="248896:248931" ph="..." />
+          </folding>
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
         </state>
       </provider>
     </entry>
@@ -3701,6 +3751,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -3722,6 +3773,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> ebef0a6476e5960cd27f36e632b5ffaa32772da5
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mygirlfriend/action_navigator/eyetoggle/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -3754,6 +3807,19 @@
           <caret line="41" column="17" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1497110787794" expanded="true" signature="2264:2432" ph="..." />
           </folding>
         </state>
       </provider>
