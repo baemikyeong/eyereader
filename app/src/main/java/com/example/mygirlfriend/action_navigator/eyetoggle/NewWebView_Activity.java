@@ -220,6 +220,7 @@ public class NewWebView_Activity extends AppCompatActivity {
         location[1] += 60;
         try {
             Thread.sleep(500);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
