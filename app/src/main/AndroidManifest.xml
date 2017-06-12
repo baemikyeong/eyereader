@@ -53,6 +53,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".eyetoggle.FileListActivity"
+            android:permission="android.permission.READ_EXTERNAL_STORAGE">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".eyetoggle.Textview_activity" />
 
         <service
