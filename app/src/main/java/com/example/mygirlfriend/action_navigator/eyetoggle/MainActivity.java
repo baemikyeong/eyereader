@@ -1,9 +1,13 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
 import android.app.Activity;
+import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -20,6 +24,8 @@ import android.widget.Toast;
 import com.example.mygirlfriend.action_navigator.R;
 import com.google.android.gms.vision.CameraSource;
 
+//import static android.support.v4.app.ActivityCompatJB.startActivityForResult;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private CameraSource mCameraSource;
@@ -29,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private SharedPreferences intPref;//이거
     private SharedPreferences.Editor editor1; //이거
-
+    boolean light;//초기상태는 불이 꺼진 상태
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
         editor1 = intPref.edit();//이거
-
+        boolean light = false; //초기상태는 불이 꺼진 상태
 
         // 초기화 버튼을 통해 사용자가 값을 입력한 경우 그 값을 저장
         try {
@@ -113,15 +119,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.action_settings) {
             return true;
         } else if (id == R.id.action_light) {
-            boolean light = false;//초기상태는 불이 꺼진 상태
+
             Intent service = new Intent( this, ScreenFilterService.class );
-            if (!light) {
-                startService(service);//false면 불을 킨다
-                light = true;
-            } else {
-                stopService(service);
-                light = false;
+            if(Build.VERSION.SDK_INT >= 23) {
+                if (!Settings.canDrawOverlays(this)) {
+                    Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:" + getPackageName()));
+                    startActivityForResult(intent, 1234);
+                }
+                if (!light) {
+                    startService(service); //false면 불을 킨다
+                    light = true;
+                } else {
+                    stopService(service);
+                    light = false;
+                }
             }
+
         } else if (id == R.id.action_bookmark) {
 
         } else if(id == R.id.action_plus){

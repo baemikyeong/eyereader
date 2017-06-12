@@ -1,8 +1,14 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -14,11 +20,24 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.mygirlfriend.action_navigator.Manifest;
 import com.example.mygirlfriend.action_navigator.R;
+import com.example.mygirlfriend.action_navigator.eyetoggle.event.LeftEyeClosedEvent;
+import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
+import com.example.mygirlfriend.action_navigator.eyetoggle.event.RightEyeClosedEvent;
 import com.example.mygirlfriend.action_navigator.eyetoggle.tracker.FaceTracker;
+import com.example.mygirlfriend.action_navigator.eyetoggle.util.PlayServicesUtil;
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.face.FaceDetector;
+import com.google.android.gms.vision.face.LargestFaceFocusingProcessor;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import java.io.IOException;
 
 public class NewWebView_Activity extends AppCompatActivity {
 
@@ -52,6 +71,16 @@ public class NewWebView_Activity extends AppCompatActivity {
         set.setCacheMode(WebSettings.LOAD_NO_CACHE);
         set.setSupportZoom(false);
 
+        PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+        // permission granted...?
+        if (isCameraPermissionGranted()) {
+            // ...create the camera resource
+            createCameraResources();
+        } else {
+            // ...else request the camera permission
+            requestCameraPermission();
+        }
 
         webView.setWebViewClient(new WebClient());
         webView.setWebChromeClient(new WebChromeClient() {
@@ -80,8 +109,7 @@ public class NewWebView_Activity extends AppCompatActivity {
 
         webView.setOnTouchListener(new View.OnTouchListener(){
             public boolean onTouch(View v, MotionEvent event){
-
-                change_down_location();
+                webView.getLocationOnScreen(location);
                 return false;
             }
         });
@@ -127,7 +155,9 @@ public class NewWebView_Activity extends AppCompatActivity {
     }
 
 
-private class WebClient extends WebViewClient {
+
+
+    private class WebClient extends WebViewClient {
 
     @Override
 
@@ -188,9 +218,14 @@ private class WebClient extends WebViewClient {
         // 위치 변경
         webView.scrollTo(0, location[1]+60);
         location[1] += 60;
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
-/*
+
     // 눈깜박임에 따른 페이지 up 함수
     public void change_up_location(){
         // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
@@ -200,21 +235,20 @@ private class WebClient extends WebViewClient {
         webView.scrollTo(0, location[1]-60);
         location[1] -= 60;
     }
-
-    *//**
+    /**
      * Check camera permission
      *
      * @return <code>true</code> if granted
-     *//*
+     */
     private boolean isCameraPermissionGranted() {
-        return ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED;
+        return ActivityCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED;
     }
 
-    *//**
+    /**
      * Request the camera permission
-     *//*
+     */
     private void requestCameraPermission() {
-        final String[] permissions = new String[]{Manifest.permission.CAMERA};
+        final String[] permissions = new String[]{android.Manifest.permission.CAMERA};
         ActivityCompat.requestPermissions(this, permissions, REQUEST_CAMERA_PERM);
     }
 
@@ -297,11 +331,11 @@ private class WebClient extends WebViewClient {
         }
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onLeftEyeClosed(LeftEyeClosedEvent e) {
-        change_down_location();
-    }
-
+    /*   @Subscribe(threadMode = ThreadMode.MAIN)
+       public void onLeftEyeClosed(LeftEyeClosedEvent e) {
+           change_down_location();
+       }
+   */
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
         // change_up_location();
@@ -322,7 +356,7 @@ private class WebClient extends WebViewClient {
         mFaceDetector = new FaceDetector.Builder(context)
                 .setProminentFaceOnly(true) // optimize for single, relatively large face
                 .setTrackingEnabled(true) // enable face tracking
-                .setClassificationType(*//* eyes open and smile *//* FaceDetector.ALL_CLASSIFICATIONS)
+                .setClassificationType(/* eyes open and smile */ FaceDetector.ALL_CLASSIFICATIONS)
                 .setMode(FaceDetector.FAST_MODE) // for one face this is OK
                 .build();
 
@@ -331,7 +365,7 @@ private class WebClient extends WebViewClient {
         mFaceDetector = new FaceDetector.Builder(context)
                 .setProminentFaceOnly(true) // optimize for single, relatively large face
                 .setTrackingEnabled(true) // enable face tracking
-                .setClassificationType(*//* eyes open and smile *//* FaceDetector.ALL_CLASSIFICATIONS)
+                .setClassificationType(/* eyes open and smile */ FaceDetector.ALL_CLASSIFICATIONS)
                 .setMode(FaceDetector.FAST_MODE) // for one face this is OK
                 .build();
 
@@ -364,5 +398,5 @@ private class WebClient extends WebViewClient {
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
                 .setRequestedFps(30f)
                 .build();
-    }*/
+    }
 }
