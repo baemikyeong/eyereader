@@ -219,7 +219,6 @@ public class NewWebView_Activity extends AppCompatActivity {
         webView.scrollTo(0, location[1]+60);
         location[1] += 60;
         try {
-            Thread.sleep(500);
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -374,16 +373,6 @@ public class NewWebView_Activity extends AppCompatActivity {
         // results
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker = new FaceTracker()));
-
-        if(left_thres == 0 && right_thres == 0){
-
-        }
-        else{
-            Toast.makeText(this, "개인화가 이미 되어 있습니다.", Toast.LENGTH_SHORT).show();
-            face_tracker.set_indi(left_thres, right_thres);
-        }
-
-
 
         // operational...?
         if (!mFaceDetector.isOperational()) {

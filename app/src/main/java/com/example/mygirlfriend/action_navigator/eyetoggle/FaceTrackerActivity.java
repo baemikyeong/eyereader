@@ -94,10 +94,7 @@ public final class FaceTrackerActivity extends Activity {
         initial_check = false;
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
-/*
-        text1 = (TextView)findViewById(R.id.show_firstValue);
-        btn1 = (Button)findViewById(R.id.show_btn);
-*/
+
         indivisual_blink_time = 0;
         intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
         editor1 = intPref.edit();
