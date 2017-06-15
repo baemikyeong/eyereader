@@ -46,7 +46,7 @@ public class Textview_activity extends AppCompatActivity {
     private double right_thres = 0;
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
-
+    private int book_mark;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,10 +57,13 @@ public class Textview_activity extends AppCompatActivity {
         helloTxt.setText(readTxt());
         scrollView = (ScrollView) findViewById(R.id.scroll_text);
         helloTxt.getLocationOnScreen(location);
+
         bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
         bookEdit = bookmarkPref.edit();
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+    //    bookEdit.putFloat("B"
 
 
 
@@ -145,11 +148,11 @@ public class Textview_activity extends AppCompatActivity {
 
     // 책갈피 추가함수
     public void book_mark_add(){
-        /*
-        * book_mark의 전역변수 설정 후, db에 저장 필요
-        * book_mark = helloTxt.getLocationOnScreen(location);
-        * if(book_mark < 0 ) book_mark = (-1)*book_mark;
-        * */
+        //book_mark의 전역변수 설정 후, db에 저장 필요
+        helloTxt.getLocationOnScreen(location);
+        book_mark = location[1];
+        if(book_mark < 0 ) book_mark = (-1)*book_mark;
+
     }
 
     /**
