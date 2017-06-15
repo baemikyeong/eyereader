@@ -148,9 +148,11 @@ public class Textview_activity extends AppCompatActivity {
 
     // 책갈피 추가함수
     public void book_mark_add(){
+
         //book_mark의 전역변수 설정 후, db에 저장 필요
+        // book_mark는 int형 변수
         helloTxt.getLocationOnScreen(location);
-        book_mark = location[1];
+         book_mark = location[1];
         if(book_mark < 0 ) book_mark = (-1)*book_mark;
 
     }

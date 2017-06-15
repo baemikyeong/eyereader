@@ -194,21 +194,11 @@ public final class FaceTrackerActivity extends Activity {
 
             editor1.putFloat("LValue",left_thred1);
             editor1.putFloat("RValue",right_thred1);
+            editor1.putLong("time_blink",indivisual_blink_time);
             editor1.commit();
 
-            float LV = intPref.getFloat("LValue",0);
-            float RV = intPref.getFloat("RValue",0);
-
-            intent.putExtra("Left_thred", LV);
-            intent.putExtra("Right_thred", RV);
-            intent.putExtra("time_blink", indivisual_blink_time);
         }
-        else{
-            intent.putExtra("Left_thred", (float) 0.5);
-            intent.putExtra("Right_thred", (float) 0.5);
-            intent.putExtra("time_blink", (long)1000);
 
-        }
         left_thred1 = 0;
         right_thred1 = 0;
         startActivity(intent);
@@ -226,10 +216,10 @@ public final class FaceTrackerActivity extends Activity {
 
     public void onClickInit_time (View v ) throws InterruptedException {
         // 정확도를 위해 두 번 check
-        onPause();
+        face_check.onDone();
+        face_check = new GraphicFaceTracker(mGraphicOverlay);
         face_check.mFaceGraphic.set_closed_size((double)left_thred1, (double)right_thred1);
         face_check.mFaceGraphic.set_check_time();
-        onResume();
         indivisual_blink_time = face_check.mFaceGraphic.return_time();
 
     }
