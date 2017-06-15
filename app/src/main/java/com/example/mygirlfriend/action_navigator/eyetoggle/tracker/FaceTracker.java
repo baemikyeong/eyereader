@@ -45,10 +45,7 @@ public class FaceTracker extends Tracker<Face> {
     private double right_thres;
     private boolean initial_check = false;
     private Face mface;
-  //  private SharedPreferences intPref;//이거
-  //  intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);//이거
-  //  float LV = intPref.getFloat("LValue",0);
-  //float RV = intPref.getFloat("RValue",0);
+
 
     public void set_indi(double left, double right){
         left_thres = left;

@@ -12,24 +12,24 @@
     <!-- 액션 버튼으로써 나타나는 "서치" 아이템  -->
     <item android:id="@+id/action_bookmark"
         android:icon="@drawable/ic_action_bookmark"
-        android:title="bookmark"
+        android:title=""
         app:showAsAction="always|withText" />
 
     <!-- 오버플로우 공간 안에 있는 "셋팅" 액션 아이템 -->
     <item android:id="@+id/action_mic"
         android:icon="@drawable/ic_action_mic"
-        android:title="mic"
+        android:title=""
         app:showAsAction="always|withText" />
 
 
     <item android:id="@+id/action_light"
         android:icon="@drawable/ic_action_light"
-        android:title="light"
+        android:title=""
         app:showAsAction="always|withText" />
 
     <item android:id="@+id/action_plus"
         android:icon="@drawable/ic_action_plus"
-        android:title="plus"
+        android:title=""
         app:showAsAction="always|withText" />
 
 

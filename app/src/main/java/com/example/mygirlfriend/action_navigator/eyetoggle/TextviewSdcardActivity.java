@@ -4,25 +4,24 @@ package com.example.mygirlfriend.action_navigator.eyetoggle;
  * Created by Sky on 2017. 6. 6..
  */
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mygirlfriend.action_navigator.Manifest;
 import com.example.mygirlfriend.action_navigator.R;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 /**
  * @author Paresh N. Mayani
@@ -63,7 +62,10 @@ public class TextviewSdcardActivity extends Activity {
         //File yourFile = new File(dir, "path/to/the/file/inside/the/sdcard.ext");
 
         //Get the text file
-        File file = new File(dir,"text.txt");
+        Intent intent = getIntent();
+        String textName = intent.getStringExtra("value");
+        //Toast.makeText(this, textName, Toast.LENGTH_SHORT).show();
+        File file = new File(dir,textName);
         // i have kept text.txt in the sd-card
 
         if(file.exists())   // check if file exist

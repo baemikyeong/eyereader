@@ -1,8 +1,10 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,7 +15,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
@@ -43,6 +44,8 @@ public class Textview_activity extends AppCompatActivity {
     private FaceTracker face_tracker;                       // 눈 파악
     private double left_thres = 0;                          // 사용자의 초기값
     private double right_thres = 0;
+    private SharedPreferences bookmarkPref;
+    private SharedPreferences.Editor bookEdit;
 
 
     @Override
@@ -54,8 +57,23 @@ public class Textview_activity extends AppCompatActivity {
         helloTxt.setText(readTxt());
         scrollView = (ScrollView) findViewById(R.id.scroll_text);
         helloTxt.getLocationOnScreen(location);
+        bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
+        bookEdit = bookmarkPref.edit();
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+
+
+
+        /*참고
+           editor1.putFloat("LValue",left_thred1);
+            editor1.putFloat("RValue",right_thred1);
+            editor1.commit();
+
+            float LV = intPref.getFloat("LValue",0);
+            float RV = intPref.getFloat("RValue",0);
+         */
+
 
         // permission granted...?
         if (isCameraPermissionGranted()) {
@@ -108,7 +126,6 @@ public class Textview_activity extends AppCompatActivity {
             scrollView.scrollTo(0, location[1]+60);
             location[1] += 60;
         try {
-            Thread.sleep(500);
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -273,16 +290,6 @@ public class Textview_activity extends AppCompatActivity {
         // results
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker = new FaceTracker()));
-
-        if(left_thres == 0 && right_thres == 0){
-
-        }
-        else{
-            Toast.makeText(this, "개인화가 이미 되어 있습니다.", Toast.LENGTH_SHORT).show();
-            face_tracker.set_indi(left_thres, right_thres);
-        }
-
-
 
         // operational...?
         if (!mFaceDetector.isOperational()) {
