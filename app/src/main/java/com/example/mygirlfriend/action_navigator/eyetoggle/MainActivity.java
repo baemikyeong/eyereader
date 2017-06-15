@@ -5,12 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -27,6 +25,8 @@ import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.google.android.gms.vision.CameraSource;
+
+import static com.example.mygirlfriend.action_navigator.R.id.subMenu_medium;
 
 //import static android.support.v4.app.ActivityCompatJB.startActivityForResult;
 
@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
 
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
@@ -94,78 +97,105 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        //getActionBar().setTitle("BLINK KLING");
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        } else if (id == R.id.action_light) {
+        switch(id){
+            case R.id.action_settings :
+                return true;
 
-            Intent service = new Intent( this, ScreenFilterService.class );
-            if(Build.VERSION.SDK_INT >= 23) {
-                if (!Settings.canDrawOverlays(this)) {
-                    Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                            Uri.parse("package:" + getPackageName()));
-                    startActivityForResult(intent, 1234);
+            case R.id.action_light :
+                Intent service = new Intent( this, ScreenFilterService.class );
+                if(Build.VERSION.SDK_INT >= 23) {
+                    if (!Settings.canDrawOverlays(this)) {
+                        Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                                Uri.parse("package:" + getPackageName()));
+                        startActivityForResult(intent, 1234);
+                    }
+                    if (!light) {
+                        startService(service); //false면 불을 킨다
+                        light = true;
+                    } else {
+                        stopService(service);
+                        light = false;
+                    }
                 }
-                if (!light) {
-                    startService(service); //false면 불을 킨다
-                    light = true;
-                } else {
-                    stopService(service);
-                    light = false;
+                break;
+
+            case R.id.action_bookmark :
+                break;
+
+            case R.id.action_plus :
+                Intent intent = new Intent(this, FileListActivity.class);
+                startActivity(intent);
+
+                break;
+
+            case R.id.action_mic :
+                intent = new Intent(this, AudioService.class);
+                // Requesting permission to RECORD_AUDIO
+
+                ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+
+                if(isRecording == false) {
+                    startService(intent);
+                    isRecording = true;
                 }
-            }
+                else{
+                    stopService(intent);
+                    isRecording = false;
+                }
 
-        } else if (id == R.id.action_bookmark) {
+                break;
 
-        } else if(id == R.id.action_plus){
-            Intent intent = new Intent(this, FileListActivity.class);
-            startActivity(intent);
+            case R.id.action_initialize :
+                intent = new Intent(MainActivity.this, FaceTrackerActivity.class);
+
+                if (mCameraSource != null) {
+                    mCameraSource.release();
+                    mCameraSource = null;
+                }
+
+                Toast.makeText(this, "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "눈을 감고 Blink_Size 버튼을 두 번 눌러주세요", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+                break;
+
+            case R.id.subMenu_Large :
+                if(!item.isChecked()) {
+                    item.setChecked(true);
+
+                }
+                break;
+
+            case subMenu_medium:
+                if(!item.isChecked())
+                    item.setChecked(true);
+                break;
+
+            case R.id.subMenu_small :
+                if(!item.isChecked())
+                    item.setChecked(true);
+                break;
+
         }
-        else if (id == R.id.action_mic) {
-            Intent intent = new Intent(this, AudioService.class);
-            // Requesting permission to RECORD_AUDIO
-
-            ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
-
-         if(isRecording == false) {
-            startService(intent);
-            isRecording = true;
-        }
-        else{
-            stopService(intent);
-            isRecording = false;
-        }
 
 
-        } else if (id == R.id.action_initialize) {
-            Intent intent = new Intent(MainActivity.this, FaceTrackerActivity.class);
-
-            if (mCameraSource != null) {
-                mCameraSource.release();
-                mCameraSource = null;
-            }
-
-            Toast.makeText(this, "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "눈을 감고 Blink_Size 버튼을 두 번 눌러주세요", Toast.LENGTH_SHORT).show();
-
-            startActivity(intent);
-        }
         return super.onOptionsItemSelected(item);
-    }
+    }//onOptionsItemSelected 메서드 종료
+
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -173,6 +203,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     //네비게이터를 클릭했을 때 일어날 명령들 여기다가 추가!
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
         int id = item.getItemId();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -204,8 +235,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_voicmemo) {
 
         }
+
+
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle("블링클링");
+        }
+
+
+
         return true;
     }
+
+
+
+
+
+
 
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -217,5 +262,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (!permissionToRecordAccepted ) finish();
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.main, menu);
+
+
+        return true;
+
+    }
+
+
+
 
 }
