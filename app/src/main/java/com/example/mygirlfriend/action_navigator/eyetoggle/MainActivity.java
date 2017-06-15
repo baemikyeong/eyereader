@@ -1,6 +1,6 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
-import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,12 +12,12 @@ import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,6 +26,8 @@ import android.widget.Toast;
 import com.example.mygirlfriend.action_navigator.R;
 import com.google.android.gms.vision.CameraSource;
 
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
+import static android.Manifest.permission.RECORD_AUDIO;
 import static com.example.mygirlfriend.action_navigator.R.id.subMenu_medium;
 
 //import static android.support.v4.app.ActivityCompatJB.startActivityForResult;
@@ -39,7 +41,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
 
     boolean permissionToRecordAccepted = false;
-    String [] permissions = {Manifest.permission.RECORD_AUDIO};
+    String [] permissions = {RECORD_AUDIO};
+
+    private static final String TAG = "AppPermission";
+    private final int MY_PERMISSION_REQUEST_STORAGE = 100;
 
     private SharedPreferences intPref;//이거
     private SharedPreferences.Editor editor1; //이거
@@ -49,9 +54,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
 
 
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
@@ -81,6 +83,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle("블링클링");
+        }
 
     }
 
@@ -143,9 +149,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.action_mic :
                 intent = new Intent(this, AudioService.class);
+
                 // Requesting permission to RECORD_AUDIO
 
-                ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+                //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+                checkPermission(RECORD_AUDIO);
 
                 if(isRecording == false) {
                     startService(intent);
@@ -239,9 +247,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
 
-        if(getSupportActionBar() != null){
-            getSupportActionBar().setTitle("블링클링");
-        }
+
 
 
 
@@ -252,7 +258,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
 
-
+/*
 
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -261,9 +267,106 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 permissionToRecordAccepted  = grantResults[0] == PackageManager.PERMISSION_GRANTED;
                 break;
         }
-        if (!permissionToRecordAccepted ) finish();
+        if (!permissionToRecordAccepted ) {
+            Log.d(TAG, "Permission always deny");
+
+            // permission denied, boo! Disable the
+            // functionality that depends on this permission.
+            Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show();
+            finish();
+        }
+
+    }*/
+
+
+
+
+    @TargetApi(Build.VERSION_CODES.M)
+    private void checkPermission(String requestCode) {
+       // Log.i(TAG, "CheckPermission : " +  ActivityCompat.checkSelfPermission(this, READ_EXTERNAL_STORAGE));
+        switch (requestCode){
+            case READ_EXTERNAL_STORAGE:
+                if (checkSelfPermission(READ_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED
+                        || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
+
+                    // Should we show an explanation?
+                    if (shouldShowRequestPermissionRationale(READ_EXTERNAL_STORAGE)) {
+                        // Explain to the user why we need to write the permission.
+                        Toast.makeText(this, "Read/Write external storage", Toast.LENGTH_SHORT).show();
+                    }
+
+                    requestPermissions(new String[]{READ_EXTERNAL_STORAGE, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                            MY_PERMISSION_REQUEST_STORAGE);
+
+                    // MY_PERMISSION_REQUEST_STORAGE is an
+                    // app-defined int constant
+
+                } else {
+                    //실행
+
+                }
+
+
+            case RECORD_AUDIO :
+                if (checkSelfPermission(RECORD_AUDIO)
+                        != PackageManager.PERMISSION_GRANTED){
+
+
+                    // Should we show an explanation?
+                    if (shouldShowRequestPermissionRationale(RECORD_AUDIO)) {
+                        // Explain to the user why we need to write the permission.
+                        Toast.makeText(this, "Record audio", Toast.LENGTH_SHORT).show();
+                    }
+
+                    requestPermissions(new String[]{RECORD_AUDIO, android.Manifest.permission.RECORD_AUDIO},
+                            MY_PERMISSION_REQUEST_STORAGE);
+
+                    // MY_PERMISSION_REQUEST_STORAGE is an
+                    // app-defined int constant
+
+                } else {
+                    //실행
+
+                }
+
+
+        }
 
     }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSION_REQUEST_STORAGE:
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+
+                    break;
+
+                    // permission was granted, yay! do the
+                    // calendar task you need to do.
+
+                } else {
+
+                    Log.d(TAG, "Permission always deny");
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                    Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
+    }
+
+
+
+
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
