@@ -23,7 +23,7 @@
 
 
     <item android:id="@+id/action_light"
-        android:icon="@drawable/ic_action_light"
+        android:icon="@drawable/ic_light"
         android:title=""
         app:showAsAction="always|withText" />
 

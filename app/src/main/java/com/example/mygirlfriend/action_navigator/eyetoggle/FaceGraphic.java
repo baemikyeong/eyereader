@@ -166,6 +166,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
                 endTime = System.currentTimeMillis();
             }
             indivisual_blink_time = endTime - startTime;
+            check_time = 0;
         }
     }
 }
