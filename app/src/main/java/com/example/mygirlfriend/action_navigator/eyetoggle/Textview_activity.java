@@ -1,8 +1,10 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,7 +15,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mygirlfriend.action_navigator.R;
 import com.example.mygirlfriend.action_navigator.eyetoggle.event.NeutralFaceEvent;
@@ -43,7 +44,9 @@ public class Textview_activity extends AppCompatActivity {
     private FaceTracker face_tracker;                       // 눈 파악
     private double left_thres = 0;                          // 사용자의 초기값
     private double right_thres = 0;
-
+    private SharedPreferences bookmarkPref;
+    private SharedPreferences.Editor bookEdit;
+    private int book_mark;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +58,25 @@ public class Textview_activity extends AppCompatActivity {
         scrollView = (ScrollView) findViewById(R.id.scroll_text);
         helloTxt.getLocationOnScreen(location);
 
+        bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
+        bookEdit = bookmarkPref.edit();
+
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+    //    bookEdit.putFloat("B"
+
+
+
+
+        /*참고
+           editor1.putFloat("LValue",left_thred1);
+            editor1.putFloat("RValue",right_thred1);
+            editor1.commit();
+
+            float LV = intPref.getFloat("LValue",0);
+            float RV = intPref.getFloat("RValue",0);
+         */
+
 
         // permission granted...?
         if (isCameraPermissionGranted()) {
@@ -127,13 +148,13 @@ public class Textview_activity extends AppCompatActivity {
 
     // 책갈피 추가함수
     public void book_mark_add(){
-        /*
-        * book_mark의 전역변수 설정 후, db에 저장 필요
-        * book_mark는 int형 변수
-        * helloTxt.getLocationOnScreen(location);
-        * book_mark = location[1];
-        * if(book_mark < 0 ) book_mark = (-1)*book_mark;
-        * */
+
+        //book_mark의 전역변수 설정 후, db에 저장 필요
+        // book_mark는 int형 변수
+        helloTxt.getLocationOnScreen(location);
+         book_mark = location[1];
+        if(book_mark < 0 ) book_mark = (-1)*book_mark;
+
     }
 
     /**

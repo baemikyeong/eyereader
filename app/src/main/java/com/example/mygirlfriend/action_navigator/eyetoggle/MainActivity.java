@@ -216,6 +216,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
 
         } else if (id == R.id.nav_bookmark) {
+            Intent intent = new Intent(this, BookmarkActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_webview) {
 

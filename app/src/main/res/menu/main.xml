@@ -7,6 +7,7 @@
         android:title="Spacing adjustment"
         app:showAsAction="never" >
     <menu>
+
         <group android:id="@+id/check_group"
             android:checkableBehavior="single">
 
