@@ -3,21 +3,741 @@
 
     <item
         is-multidex="true"
-        jar="/Users/dayeon/eyereader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\dy889\.android\build-cache\2685113d72b3001cab2c1894889e19efbd0f0934\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3080d2a3c8776cb6609326d0b79393e8bf97d42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\ac9827c87406e551b453cf8bd11ab01cfa879977\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe8d853372e8577869aca9f5220a3aef0a73212e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\b71ea3a873de78293c6582db20fef864873b329d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5aef8c48c4ec03015d24bff190ae198a4efd8af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\0060ea5fdfd2fc1d6b8ca01d0ae612c64d50d685\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09e22c6deca102694cc9ed9e906584c9f3dcefb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_eb86c0224c79dbd11407e0242ed6fe352982e302\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\a08b0e175c0e34e9c949e1e317f3f1c61830b6c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ea4d5782b77f205b11c03a131584c10b9667e85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\c37029544a5398ccc2b4ace91e97c29824a6fd44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b6c30ba9e237a6e5d01b77e0b5351418df773cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\152cb2b260a5e465851aec04e9c97735b25227b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06533ebd173f24769436deeac5c9db43df4ff305\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\865ed166ee965defe1a18a79d0399f0b0396e390\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c20f0d294df7c131a3cddfcfc71210b578342c5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\cf475a46ed9fc3d1736f2aca6de9f6b06a0f03ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd2cca7e00b157ca82f756365fa17497caede8a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\3ce71b6e1a0c54582864be18b072451b3cb05f5d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d5267ee0b2a5e7c9de348d828703c890b7b3e3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\6eb1f1beb74a0f6f7519161070d151573d511644\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a50ee869fb2a1e74b3c9c8ec0e22153aad219e87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\a03d5f98e071ecfaa89f11133d175de08b186c47\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fc7737bfbd103aede92af5eee898b0486604726\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\c4774a4147aa3c0a0ef08842d0e7ef0ed91e38f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79bb8f85c3b5b619fd71e8dceb4ab281234883d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\7e78ca42923d507fbbcabb95ee48c7ddf2c2c064\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1bef9344801405dec9dd257fe10ba28132136d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.annotation-api-1.2_b96cc0b0fda9a96e0f9ff7789832b9ed2cdc5848\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\a9ed3a78b1568ca53a890afb1af2e2a2f131bf6a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2359c658a003b76836c4d9a66b14cd78df04a16a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\4330ebfc0396e65ee268941796f190f47bba454b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24b8413280fd785f8a036a826eb9d3adc4d16d7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\881c7ca0ff5e3a246a027b2d60f062378d106efc\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_1688788b49c8e8da7e8ce353f4faf2e0a8f83985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\93f3eb5d5070978a133f8b44c8b123e1c06e0ae4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66bca7ba16e0c8ebc1fac56ffa8928cc18091d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\57e76015afe92ab9628da55dfca646b16d681695\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee000c69c7715c720c57ae0a5f1c5712e8412099\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\2318f7de2f290e7ceeae07216c4454185a81ae35\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf8c1603224be2237fca726e1439bd5bb7d57759\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\0b8d44846f2be11891a3717e6b73cc44098005f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d031af765c41fcb50bccf6516dddf5a287b51967\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\2d6c76f6d843d2ef695fa67fd6714407c1a2e712\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e75f5670a71f0f046b2bbfb8c8127c5b27b983a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\javawriter-2.1.1_04d5c82b3b35ec9872baa49337f8931d3141c396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\d17ca92bda68de491bb6db9183e7a0d2d61d4027\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03cb602d7417e8a0cf4b7d055a575e06f41f0a68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\d2170f9de2ddf31b4894a3d4e258d36daeeb1159\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ccb8e6aa564f2d257d141ff7a3f2abf4f433f97e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\07e658a9c2b53a3434760b5d6bcadb18deb55882\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f17ae2694c5d672e57e306a05552eade4f787355\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\881c7ca0ff5e3a246a027b2d60f062378d106efc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5ff6a730e1d3ec9862a179b0e54fe84764a7898\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_c2cfa35029dd5c15e9b3fe3f645b54a994b4d810\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\df5d3e9cf6706adfb7853424ee8849c0a8fe9cda\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_908174417138b4fdfae99a20dbf69326f3610c53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\33f6685fc6d55be148187127e5a9565687f57742\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d63bb2392f8e73ca58faba15a09cc0b9703cc6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\b4c13443c42c10645dbf9ce0bb5268bb72d9bd01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dbd02f33acf0cffad1f8097ad06716eba5382260\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\7acd474a6d6f6043b0d7a15016958fde23eca151\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46b6dda1ff1e9b07aad0886e26a71becc508ef4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\152c04c0efe9b48d7a1aa1354f584e46b9e82e1c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b01236be73606ded3ac258dc194ad77bf5f86c4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_c572f5a0d84002df0268edffb902c59edb51ccc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\c1b876ce5a2fa623bd83b9363449eff1fd8ebf2e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_209020d81edbb5a8b717a7ba809295e211590ce9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-library-1.3_ecf422b9ab0db0d790c967a5990e60fb5d812466\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\a8c939d51a601010f47eb3b6f0288fae6a82dc4c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fe5b2055d4152b12638f5976c64a893cd51de56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\bc7ffc27445b4fda864572b52712d6892d8cf39c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f604d5ea52de4bcbc34b8c4533c4eb8dfff029d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\04fb28cd321c0014d35ffa3753245e1ae25958ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01fd298985b27816f457e265f97d0fafb4058ace\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\bef2d2ed6dd2fe5cd644caf60a4f35d160c3ab1e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1c3a9d55b5bd696ada3f1302cc4262ab2db7b27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\5ac780eb4315843e380f50a57f837ebe3a71cca4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_986646ebb6498e9f8582556dc02e3dffcfe2c4b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\05b65cac348b4bac0502ac3c5f90872fdaf97a84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8b32535c95a1909989c8418b64317e8ce5a9834\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\f78016f9b280e2c06f325c0d86809ab701956e39\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8a63982883928ebeed0bac5fc6d9ab61c4b84eb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\12c9b4242ff73dd322acebf62b8bbf391c06da69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c0e001dda77062f2e85f93f8a357747f0d98f44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\ec0a65d3b076b1c5268a7c7a37a81ee68cca6112\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4e5c5f508a540e7c81f8302deb9bba0bbe1bcdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\78e7e42cfc9bbe94fb999c21ba27850bebb1fd40\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e124c192f5053a6a9d9735d6472aca8b32a21bc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\36d580eb9a64e4cd98f8061d9834a7a02a20e7a9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_530d1bf64af1278d3926fb3f80e5aa90b70fc3b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\93dd08cc8c64ec209dfc04d85a529cad5ff519a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_146490a8038a3b3b5dfcb92e463fbf5a927b9c1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_6abb108fbdd9718db284004b521cf8fd43b5d20f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\06ae8295ecaccdb0224e126388ee6b26c76ba0a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54bc6c235a62381f08a6d6de3a36926c7c3e6010\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\36d3722801e68ca05da429f075e8c6ba61fb0d07\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a044b5aef1a97f12f5a05cae2c92bd25cbc6f0c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3bc84ca795ab77b61992a5eeae0d68a56e2b3fe8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_9551153fb896e94313aa32403af389ed511c84cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\9d36c224e89a33a9cd56d152b1856c5fbb1e1787\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70e05441e8231832674dd887f25691f37e65f55b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\fbc942a1f137effacaeb1968f0b0527c8b9b76f9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1ba8a313aba519aca0b1e4641ca77f4a1d9d08d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\e52e922b55e8f88b90fc926269d71be601243ae0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c578d6977b9a438e262e845026c51a73c85eeaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34cf8b539585ca1411c54a4fff3c038c31b63902">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a4d3dc9dd0170333aec475491c361b66e54fc269\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\e5fb35daa28785c91dd0d1ebb98b5982729c22e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5dd8b264ada2ba8d5b5dc2ae92d016f6c8631f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\5ba921687b65fc5ec38f2c91526cfcb6e8e9fd44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddb9beabbec3a3475f3e10fa80d25e0341059af4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\7984e8cee3b8eaa743d4fa0d29721a057edbfd81\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27ea8b59142cb8941208254d770993a9295ff8b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\d1fa21e54ed67e2623ed039d3a40e74a49c4f118\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddd0f0fe372d43a25434956e283bed92f156ad7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-integration-1.3_2338b9086cee16f47be8cbfaea817eb8e20d18c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\6bae544bb650b5a07c1ee1f07e8de5312943bb27\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_455ef60107b327cac1e9316ad0a18940bd0d26d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\e0be4edd25e4b4557b895af772a2f69963d16fe8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01d4107c77f4320cddeaa956ac517ff3b72fb1cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\f0cd77b1b1a1fd1da1650ba0d4886d8b1272b603\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed9bb4c890092b97eebd3a5856a2876151e0b1cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\e0205fea6200c3e81a494bc8a9117a77a72168ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c81e0169a73bb632eabbfbe207935d15f835022\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\d9d7c4b49842667f35e55746a66a8c692c892ef6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d94cbfda3e36653b31afc8cadba37c4644fa8281\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\5b59eca9a0bfdf1d202c60360ff1e7eff415ab74\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6677efdde8c7dd5a646fa429a6a9d24292f884b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\11a22824b674fc33d38cadc6afd43da20d820267\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a5fda6e361769b074ba71eb09326920c4781a8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\74efb5659eae6e2914f8d5b8e8568ee5b9df3599\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bcbafee0124b23f0b991b6e36dc3a32a7c90e05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\5be27fb41eebb647131b34037f6ce6ef3d2567cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e560908f8e14c6d8e3742c96a3b25aecdbca6f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\cd5d323c1d7f3e73d288b2ca8fc433cd3aaf6665\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfc44e382dc6a3187645ff85c498615d7927fc54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\23b1b91c3f02d367b926fc6e8a8f53118e6ce894\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20e6e332ce56d28f14406d7dc23f7c16d17146fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_9e2c2a7f209984ff3307dcd6ef5df06f3d08f9a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\e3fd6c0b75fabb82f50fe77bb72c899124ec4718\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4ee7bc1e281328bb66602e16268f2eb60a3f2d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_3f07ca171f8c3b7b58e45585de4117aaa129fc78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfdb4926e28291311f7dfe14c22c5ab48d338d90/classes.dex" />
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8cd57b0343fe43c6600c5f52d01dd10c345cf85a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dayeon/eyereader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\dy889\.android\build-cache\ca5aba422b9337401b023dcf390a25b10f949920\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="160c04a0af8b5e5d4e12f2fa4104c8867fdc6def">
-        <dex dex="/Users/dayeon/eyereader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_72e044e3e5129e2fbeef3aaf2d0c84304e5d3fb9/classes.dex" />
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4093fdd1122c2ac0f32adbfa3f1f3c00e824dab4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\cecddb6c178a0fe0a80d21ae112d02bd853c87ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbe77098f0ae35ed12fc3d2a7a0ca344697d90ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dy889\.android\build-cache\0a574d4e6caef1abdf470609d9f6d012dd527d47\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\dy889\Desktop\eyereader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de8ef8b7817e7f602e2d6f621a638582bb5e1225\classes.dex" />
     </item>
 
 </items>
