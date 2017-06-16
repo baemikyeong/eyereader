@@ -51,8 +51,6 @@ public class NewWebView_Activity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_new_web_view_);
 
         webView = (WebView) findViewById(R.id.webView1);
