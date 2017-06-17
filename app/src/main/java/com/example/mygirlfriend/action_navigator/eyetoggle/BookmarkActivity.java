@@ -1,5 +1,6 @@
 package com.example.mygirlfriend.action_navigator.eyetoggle;
 
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -13,7 +14,8 @@ import com.example.mygirlfriend.action_navigator.R;
 import java.util.ArrayList;
 
 public class BookmarkActivity extends AppCompatActivity {
-
+    private SharedPreferences bookmarkPref;
+    private SharedPreferences.Editor bookEdit;
     ArrayList<BookTag> list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +36,21 @@ public class BookmarkActivity extends AppCompatActivity {
         listview = (ListView) findViewById(R.id.listview1);
         listview.setAdapter(adapter);
 
+/*
+        float LV = intPref.getFloat("LValue",0);
+        float RV = intPref.getFloat("RValue",0);*/
         // 첫 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.bookm),"혜민", "문서1");
+    
+
+
+
+
+
+
+
+
         // 두 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.voice),"미경", "문서2");
+        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.voice),"testBM", "문서1");
         // 세 번째 아이템 추가.
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.bookm),"다연", "문서1");
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.voice),"미경", "문서2");

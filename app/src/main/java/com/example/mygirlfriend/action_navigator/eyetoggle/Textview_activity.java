@@ -47,6 +47,7 @@ public class Textview_activity extends AppCompatActivity {
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
     private int book_mark;
+    private String RankInfoData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +62,16 @@ public class Textview_activity extends AppCompatActivity {
         bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
         bookEdit = bookmarkPref.edit();
 
+     //   RankInfoData = (String)values.get(sortByValue(values).get(a).toString());
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
-    //    bookEdit.putFloat("B"
+        int getLocationA = 200;
+        int getLocationB = 400;
+        bookEdit.putFloat("testBM_1",getLocationA);//임의의 좌표 testBM을 키로 설정하여 앱에 저장
+        bookEdit.putFloat("testBM_2",getLocationB);
+        bookEdit.commit();
+
+
 
 
 
