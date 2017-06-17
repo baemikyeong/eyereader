@@ -4,33 +4,61 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="Spacing adjustment"
+        app:showAsAction="never" >
+    <menu>
+
+        <group android:id="@+id/check_group"
+            android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/subMenu_Large"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="Large"/>
+
+        <item
+            android:id="@+id/subMenu_medium"
+            android:orderInCategory="2"
+            android:showAsAction="never"
+            android:checked="true"
+            android:title="Medium"/>
+        <item
+            android:id="@+id/subMenu_small"
+            android:orderInCategory="3"
+            android:showAsAction="never"
+            android:title="small"/>
+        </group>
+    </menu>
+</item>>
+
+
 
 
 
     <!-- 액션 버튼으로써 나타나는 "서치" 아이템  -->
     <item android:id="@+id/action_bookmark"
-        android:icon="@drawable/ic_action_bookmark"
+        android:icon="@drawable/ic_action_bk"
         android:title=""
         app:showAsAction="always|withText" />
 
     <!-- 오버플로우 공간 안에 있는 "셋팅" 액션 아이템 -->
     <item android:id="@+id/action_mic"
-        android:icon="@drawable/ic_action_mic"
+        android:icon="@drawable/ic_action_mi"
         android:title=""
         app:showAsAction="always|withText" />
 
 
     <item android:id="@+id/action_light"
-        android:icon="@drawable/ic_light"
+        android:icon="@drawable/ic_action_li"
         android:title=""
         app:showAsAction="always|withText" />
 
     <item android:id="@+id/action_plus"
-        android:icon="@drawable/ic_action_plus"
+        android:icon="@drawable/ic_action_name"
         android:title=""
         app:showAsAction="always|withText" />
+
 
 
 

@@ -51,8 +51,6 @@ public class NewWebView_Activity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_new_web_view_);
 
         webView = (WebView) findViewById(R.id.webView1);
@@ -61,7 +59,7 @@ public class NewWebView_Activity extends AppCompatActivity {
 
         webView.getLocationOnScreen(location);
         webView.getSettings().setJavaScriptEnabled(true);
-       // webView.loadUrl("http://newhouse.tistory.com/"); // 보여주고자 하는 주소
+        // webView.loadUrl("http://newhouse.tistory.com/"); // 보여주고자 하는 주소
         goURL(webView);
 
 
@@ -117,7 +115,7 @@ public class NewWebView_Activity extends AppCompatActivity {
         String url = tvURL.getText().toString();
         Log.i("URL","Opening URL :"+url);
 
-      //  WebView webView = (WebView)findViewById(R.id.webView1);
+        //  WebView webView = (WebView)findViewById(R.id.webView1);
         webView.setWebViewClient(new WebViewClient()); // 이걸 안해주면 새창이 뜸
         webView.loadUrl(url);
 
@@ -126,7 +124,7 @@ public class NewWebView_Activity extends AppCompatActivity {
 
 
 
- public boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
 
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
 
@@ -156,55 +154,55 @@ public class NewWebView_Activity extends AppCompatActivity {
 
     private class WebClient extends WebViewClient {
 
-    @Override
+        @Override
 
-    public boolean shouldOverrideUrlLoading(WebView view, String url) {
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
 
-        if (url.startsWith("sms:")) {
+            if (url.startsWith("sms:")) {
 
-            Intent i = new Intent(Intent.ACTION_SENDTO, Uri.parse(url));
+                Intent i = new Intent(Intent.ACTION_SENDTO, Uri.parse(url));
 
-            startActivity(i);
+                startActivity(i);
+
+                return true;
+
+            }
+
+
+            if (url.startsWith("kakaolink:")) {
+
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+
+                startActivity(i);
+
+                return true;
+
+            }
+
+
+            if (url.startsWith("tel")) {
+
+                Intent i = new Intent(Intent.ACTION_DIAL);
+
+                i.setData(android.net.Uri.parse(url));
+
+                startActivity(i);
+
+
+            } else {
+
+                view.loadUrl(url);
+
+
+            }
+
 
             return true;
 
-        }
-
-
-        if (url.startsWith("kakaolink:")) {
-
-            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-
-            startActivity(i);
-
-            return true;
 
         }
-
-
-        if (url.startsWith("tel")) {
-
-            Intent i = new Intent(Intent.ACTION_DIAL);
-
-            i.setData(android.net.Uri.parse(url));
-
-            startActivity(i);
-
-
-        } else {
-
-            view.loadUrl(url);
-
-
-        }
-
-
-        return true;
-
-
     }
-}
 
     //눈깜박임에 따른 페이지 down 함수
     public void change_down_location(){

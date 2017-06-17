@@ -30,7 +30,7 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
 
-
+    String SDpath ="";
     String mRoot = "";
     String mPath = "";
     TextView mTextMsg;
@@ -42,9 +42,9 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.filelist);
 
-
         checkPermission();
-
+        final File bk = new File(SDpath + "/bk");
+        bk.mkdir();
     }
 
 
@@ -54,7 +54,8 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
             finish();
         mTextMsg = (TextView)findViewById(R.id.textMessage);
         // SD 카드 루트 폴더의 경로를 구한다
-        mRoot = Environment.getExternalStorageDirectory().getAbsolutePath();
+        SDpath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        mRoot = SDpath + "/bk";
         //mTextMsg.setText(mRoot);
         String[] fileList = getFileList(mRoot);
         for(int i=0; i < fileList.length; i++)
