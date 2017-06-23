@@ -6,11 +6,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
@@ -32,6 +34,12 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Textview_activity extends AppCompatActivity {
 
@@ -47,11 +55,18 @@ public class Textview_activity extends AppCompatActivity {
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
     private int book_mark;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text);
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
+        setSupportActionBar(toolbar);
+
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
 
         helloTxt = (TextView) findViewById(R.id.hellotxt);
         helloTxt.setText(readTxt());
@@ -62,11 +77,6 @@ public class Textview_activity extends AppCompatActivity {
         bookEdit = bookmarkPref.edit();
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
-
-    //    bookEdit.putFloat("B"
-
-
-
 
         /*참고
            editor1.putFloat("LValue",left_thred1);
@@ -94,13 +104,70 @@ public class Textview_activity extends AppCompatActivity {
                 return false;
             }
         });
+
+        /* 툴바로 북마크 저장 버튼? 누르면 저장되게하는 부분
+        saveRankInfoToSharedPreferences(String inFile, String fileType, int position) 이함수를 사용하면
+        "NAME"파일에 저장됨
+        +
+        리스트 뷰가 하나씩 생기게 하기
+         getRankInfoItemsFromSharedPreferences()
+        */
     }
+//수정 필요
+ /*   public void getRankInfoItemsFromSharedPreferences()
+    {
+        bookEdit.clear();
+
+        //SharedPreferences 파일을 가져온다(파일이 없는 경우 자동 생성)
+        SharedPreferences prefs = this.getSharedPreferences("NAME", Context.MODE_PRIVATE);
+
+        //SharedPreferences에 저장된 모든 데이터 추출
+        Map<String, ?> values = prefs.getAll();
+        Iterator<String> iterator = sortByValue(values).iterator(); //추가한 부분-순서대로 정렬
+
+        String recordA=null;
+        String userMode=null;
+        String userName=null;
+
+        while (iterator.hasNext())
+        {
+            key = (String) iterator.next();
+
+            //KEY 판별
+            if(key != null );
+            {
+                try{
+
+                    //데이터 추출
+                    String RankInfoData = (String)values.get(key);
+                    String[] RankInfos = RankInfoData.split("_@#@_" *//* 구분자 *//*);
+
+                    recordA = RankInfos[0];
+                    userMode = RankInfos[1];
+                    userName = RankInfos[2];
+
+                    if (recordA!=null && userMode!=null && userName !=null) {
+                        //리스트 아이템 정보 출력으로 변환 저장
+                        ListView_Rank i = new ListView_Rank(recordA + " / " + userMode + " / " + userName);
+
+
+                        adapter.add(i);
+
+                        adapter.notifyDataSetChanged();
+                    }
+
+
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+            }
+        }
+    }*/
 
     // txt 파일 읽어오는 함수
     private String readTxt() {
 
         InputStream inputStream = getResources().openRawResource(R.raw.mytext);
-
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
         int i;
@@ -311,5 +378,84 @@ public class Textview_activity extends AppCompatActivity {
                 .setRequestedFps(30f)
                 .build();
     }
+
+    //sharedPreferences에 저장하는 메소드~ 나중에 저장할 "NAME"을 사용자에게 입력받는 것으로 수정하자
+    private boolean saveRankInfoToSharedPreferences(String inFile, String fileType, int position) {
+        //SharedPreferences 파일을 가져온다(파일이 없는 경우 자동 생성)
+        SharedPreferences prefs = this.getSharedPreferences("NAME", Context.MODE_PRIVATE);
+
+        //SharedPreferences 에디터 생성
+        SharedPreferences.Editor editor = prefs.edit();
+
+        //정보 저장을 위한 KEY
+        String RankKey = String.valueOf(System.currentTimeMillis());//저장 시간을 string으로 바꿔서 그 값을 키값으로 저장
+
+        //정보를 위한 Value
+        String pos = String.valueOf(position);//저장할 포지션을 string으로 변환
+        String RankInfoValue = inFile + "_@#@_" + fileType + "_@#@_" + pos;//string으로 변환된 pos를 저장
+
+        //에디터에 보관
+        editor.putString(RankKey, RankInfoValue);
+
+        ///파일에 에디터 내용 적용
+        return editor.commit();
+    }
+
+    //정렬하는 메소드
+    public static List sortByValue(final Map values) {
+        List<String> list = new ArrayList();
+        list.addAll(values.keySet());//해쉬맵에 저장한 키 값들을 새로운 어레이리스트에 저장함
+
+        Collections.sort(list, new Comparator() {
+            public int compare(Object o1, Object o2) {
+
+                Object v1 = values.get(o1);
+                Object v2 = values.get(o2);
+                return ((Comparable) v1).compareTo(v2);
+            }
+        });
+        // Collections.reverse(list); // 주석시 오름차순 //이걸 안쓰면 숫자작은거부터, 쓰면 숫자 큰거부터!
+
+        return list;
+    }
+
+    /*   private void editRankInfoItemsFromSharedPreferences() {
+        Intent in = getIntent();
+        String Nusername = in.getStringExtra("newname");
+
+        if (Nusername != null) {
+            SharedPreferences prefs = this.getSharedPreferences("NAME", Context.MODE_PRIVATE);
+
+            //SharedPreferences에 저장된 모든 데이터 추출
+            Map<String, ?> values = prefs.getAll();
+            Iterator<String> iterator = sortByValue(values).iterator(); //추가한 부분-순서대로 정렬
+
+
+            //KEY 판별
+            if (key != 0)
+            {
+                try {
+                    //데이터 추출
+                    String RankInfoData = (String) values.get(sortByValue(values).get(a).toString());
+                    String[] RankInfos = RankInfoData.split("_@#@_" *//* 구분자 *//*);
+
+                    String inFile = RankInfos[0];
+                    String fileType = RankInfos[1];
+                    // String userName = RankInfos[2]; //name만 수정되어 새로운 값이 들어올거니까 이건 필요없음
+                    if (inFile != null && fileType != null && Nusername != null) {
+                        saveRankInfoToSharedPreferences(inFile, fileType, Nusername);
+
+
+                        ///////sharedpreferences에서 삭제되는 부분,
+                        removePrefs(sortByValue(values).get(a).toString());
+
+                        adapter.notifyDataSetChanged();
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }*/
 
 }
