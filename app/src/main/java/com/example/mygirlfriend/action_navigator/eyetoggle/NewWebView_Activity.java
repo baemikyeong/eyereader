@@ -59,7 +59,6 @@ public class NewWebView_Activity extends AppCompatActivity {
 
         webView.getLocationOnScreen(location);
         webView.getSettings().setJavaScriptEnabled(true);
-        // webView.loadUrl("http://newhouse.tistory.com/"); // 보여주고자 하는 주소
         goURL(webView);
 
 
@@ -115,8 +114,7 @@ public class NewWebView_Activity extends AppCompatActivity {
         String url = tvURL.getText().toString();
         Log.i("URL","Opening URL :"+url);
 
-        //  WebView webView = (WebView)findViewById(R.id.webView1);
-        webView.setWebViewClient(new WebViewClient()); // 이걸 안해주면 새창이 뜸
+        webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(url);
 
     }
@@ -288,7 +286,7 @@ public class NewWebView_Activity extends AppCompatActivity {
                 e.printStackTrace();
             }
         } else {
-            //   Log.e(TAG, "onResume: Camera.start() error");
+
         }
     }
 
@@ -305,7 +303,7 @@ public class NewWebView_Activity extends AppCompatActivity {
         if (mCameraSource != null) {
             mCameraSource.stop();
         } else {
-            //    Log.e(TAG, "onPause: Camera.stop() error");
+
         }
     }
 
@@ -317,23 +315,17 @@ public class NewWebView_Activity extends AppCompatActivity {
         if (mFaceDetector != null) {
             mFaceDetector.release();
         } else {
-            // Log.e(TAG, "onDestroy: FaceDetector.release() error");
+
         }
         if (mCameraSource != null) {
             mCameraSource.release();
         } else {
-            // Log.e(TAG, "onDestroy: Camera.release() error");
+
         }
     }
 
-    /*   @Subscribe(threadMode = ThreadMode.MAIN)
-       public void onLeftEyeClosed(LeftEyeClosedEvent e) {
-           change_down_location();
-       }
-   */
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
-        // change_up_location();
 
     }
 
@@ -371,9 +363,9 @@ public class NewWebView_Activity extends AppCompatActivity {
 
         // operational...?
         if (!mFaceDetector.isOperational()) {
-            //  Log.w(TAG, "createCameraResources: detector NOT operational");
+
         } else {
-            //   Log.d(TAG, "createCameraResources: detector operational");
+
         }
 
         // Create camera source that will capture video frames

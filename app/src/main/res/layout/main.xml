@@ -31,22 +31,12 @@
 
   <Button
       android:id="@+id/button5"
-      android:layout_width="200dp"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:onClick="onClickInit"
       android:text="Blinking_Size"
       android:layout_above="@+id/back_to_read"
       android:layout_alignParentStart="true" />
-
-  <Button
-      android:id="@+id/button2"
-      android:layout_width="197dp"
-      android:layout_height="wrap_content"
-      android:text="Blinking_time"
-      android:layout_alignBaseline="@+id/button5"
-      android:layout_alignBottom="@+id/button5"
-      android:onClick="onClickInit_time"
-      android:layout_alignParentEnd="true" />
 
   <Button
       android:id="@+id/back_to_read"

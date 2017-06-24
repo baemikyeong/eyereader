@@ -38,20 +38,12 @@
             android:name=".eyetoggle.FaceTrackerActivity"
             android:permission="android.permission.CAMERA"
             android:screenOrientation="fullSensor">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".eyetoggle.TextviewSdcardActivity"
             android:permission="android.permission.READ_EXTERNAL_STORAGE">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
 
@@ -59,11 +51,7 @@
             android:name=".eyetoggle.FileListActivity"
 
             android:permission="android.permission.READ_EXTERNAL_STORAGE">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".eyetoggle.Textview_activity" />
 
@@ -76,12 +64,9 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".eyetoggle.TestSharedPreferenceActivity" />
-
         <activity
             android:name=".eyetoggle.NewWebView_Activity"
             android:permission="android.permission.CAMERA"></activity>
-        <activity android:name=".eyetoggle.BookmarkActivity"></activity>
 
     </application>
 
