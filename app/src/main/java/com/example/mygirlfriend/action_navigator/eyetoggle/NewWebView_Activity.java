@@ -59,7 +59,7 @@ public class NewWebView_Activity extends AppCompatActivity {
 
         webView.getLocationOnScreen(location);
         webView.getSettings().setJavaScriptEnabled(true);
-        // webView.loadUrl("http://newhouse.tistory.com/"); // 보여주고자 하는 주소
+
         goURL(webView);
 
 
@@ -115,7 +115,6 @@ public class NewWebView_Activity extends AppCompatActivity {
         String url = tvURL.getText().toString();
         Log.i("URL","Opening URL :"+url);
 
-        //  WebView webView = (WebView)findViewById(R.id.webView1);
         webView.setWebViewClient(new WebViewClient()); // 이걸 안해주면 새창이 뜸
         webView.loadUrl(url);
 

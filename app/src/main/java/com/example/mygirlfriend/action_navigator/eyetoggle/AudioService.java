@@ -32,7 +32,6 @@ public class AudioService extends Service{
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        // 서비스가 호출될 때마다 실행
         try {
             Toast.makeText(this,"recording started", Toast.LENGTH_SHORT).show();
             startRecording();
@@ -46,9 +45,6 @@ public class AudioService extends Service{
 
     @Override
     public void onDestroy() {
-     //   stopRecording();
-       // recorder.stop();
-        //recorder.release();
         Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
@@ -81,13 +77,7 @@ public class AudioService extends Service{
     }
 
     public void stopRecording() {
-      //  recorder.stop();
-        //recorder.release();
-        //recorder = null;
-        //after stopping the recorder, create the sound file and add it to media library.
-       // addRecordingToMediaLibrary();
 
-        //stopSelf();
         if(recorder != null){
             recorder.stop();
             recorder.release();

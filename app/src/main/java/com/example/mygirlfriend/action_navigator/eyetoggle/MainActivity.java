@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
 
-    private SharedPreferences intPref;//이거
-    private SharedPreferences.Editor editor1; //이거
-    boolean light;//초기상태는 불이 꺼진 상태
+    private SharedPreferences intPref;
+    private SharedPreferences.Editor editor1;
+    boolean light;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,11 +57,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
-        editor1 = intPref.edit();//이거
+        editor1 = intPref.edit();
         float LeftV = intPref.getFloat("LValue",0);
         float RightV = intPref.getFloat("RValue", 0);
         float blink_time = intPref.getLong("time_blink", 0);
-        boolean light = false; //초기상태는 불이 꺼진 상태
+        boolean light = false;
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 // Requesting permission to RECORD_AUDIO
 
-                //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+
                 checkPermission(RECORD_AUDIO);
 
                 if(isRecording == false) {
@@ -224,8 +224,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
 
         } else if (id == R.id.nav_bookmark) {
-            Intent intent = new Intent(this, BookmarkActivity.class);
-            startActivity(intent);
+
 
         } else if (id == R.id.nav_webview) {
 
@@ -253,30 +252,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         return true;
     }
-
-
-
-
-
-/*
-
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode){
-            case REQUEST_RECORD_AUDIO_PERMISSION:
-                permissionToRecordAccepted  = grantResults[0] == PackageManager.PERMISSION_GRANTED;
-                break;
-        }
-        if (!permissionToRecordAccepted ) {
-            Log.d(TAG, "Permission always deny");
-
-            // permission denied, boo! Disable the
-            // functionality that depends on this permission.
-            Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show();
-            finish();
-        }
-
-    }*/
 
 
 
