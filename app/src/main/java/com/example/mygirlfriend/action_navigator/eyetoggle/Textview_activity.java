@@ -13,6 +13,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -47,6 +48,8 @@ public class Textview_activity extends AppCompatActivity {
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
     private int book_mark;
+    private String RankInfoData;
+    Button BookTag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +64,16 @@ public class Textview_activity extends AppCompatActivity {
         bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
         bookEdit = bookmarkPref.edit();
 
+     //   RankInfoData = (String)values.get(sortByValue(values).get(a).toString());
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
-    //    bookEdit.putFloat("B"
+        int getLocationA = 200;
+        int getLocationB = 400;
+        bookEdit.putFloat("testBM_1",getLocationA);//임의의 좌표 testBM을 키로 설정하여 앱에 저장
+        bookEdit.putFloat("testBM_2",getLocationB);
+        bookEdit.commit();
+
+
 
 
 
@@ -87,6 +97,7 @@ public class Textview_activity extends AppCompatActivity {
             requestCameraPermission();
         }
 
+
         // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
         scrollView.setOnTouchListener(new View.OnTouchListener(){
             public boolean onTouch(View v, MotionEvent event){
@@ -94,7 +105,17 @@ public class Textview_activity extends AppCompatActivity {
                 return false;
             }
         });
+
+        BookTag = (Button) findViewById(R.id.btn_setBookTag);
+
     }
+    Button.OnClickListener mClickListener = new View.OnClickListener() {
+        public void onClick(View v) {
+        }
+
+        };
+
+
 
     // txt 파일 읽어오는 함수
     private String readTxt() {

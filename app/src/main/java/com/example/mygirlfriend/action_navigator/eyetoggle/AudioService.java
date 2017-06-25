@@ -46,9 +46,6 @@ public class AudioService extends Service{
 
     @Override
     public void onDestroy() {
-     //   stopRecording();
-       // recorder.stop();
-        //recorder.release();
         Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
@@ -61,7 +58,6 @@ public class AudioService extends Service{
 
 
     public void startRecording() throws IOException {
-
         //Creating file
         File dir = Environment.getExternalStorageDirectory();
         try {
@@ -81,13 +77,7 @@ public class AudioService extends Service{
     }
 
     public void stopRecording() {
-      //  recorder.stop();
-        //recorder.release();
-        //recorder = null;
-        //after stopping the recorder, create the sound file and add it to media library.
-       // addRecordingToMediaLibrary();
 
-        //stopSelf();
         if(recorder != null){
             recorder.stop();
             recorder.release();
