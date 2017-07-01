@@ -32,6 +32,7 @@ public class AudioService extends Service{
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        // 서비스가 호출될 때마다 실행
         try {
             Toast.makeText(this,"recording started", Toast.LENGTH_SHORT).show();
             startRecording();
@@ -57,7 +58,6 @@ public class AudioService extends Service{
 
 
     public void startRecording() throws IOException {
-
         //Creating file
         File dir = Environment.getExternalStorageDirectory();
         try {

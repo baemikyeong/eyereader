@@ -38,8 +38,6 @@
       android:layout_above="@+id/back_to_read"
       android:layout_alignParentStart="true" />
 
-
-
   <Button
       android:id="@+id/back_to_read"
       android:layout_width="match_parent"

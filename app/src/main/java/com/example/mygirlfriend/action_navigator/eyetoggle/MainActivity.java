@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
-    boolean light;
+    boolean light;//초기상태는 불이 꺼진 상태
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,8 +90,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
-
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -102,9 +100,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             super.onBackPressed();
         }
     }
-
-
-
 
 
     @Override
@@ -129,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         startActivityForResult(intent, 1234);
                     }
                     if (!light) {
-                        startService(service); //false면 불을 킨다
+                        startService(service);
                         light = true;
                     } else {
                         stopService(service);
@@ -152,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 // Requesting permission to RECORD_AUDIO
 
-
+                //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
                 checkPermission(RECORD_AUDIO);
 
                 if(isRecording == false) {
@@ -252,6 +247,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         return true;
     }
+
 
 
 

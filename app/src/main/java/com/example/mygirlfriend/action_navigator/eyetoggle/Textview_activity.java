@@ -6,15 +6,14 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -34,8 +33,6 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Textview_activity extends AppCompatActivity {
 
@@ -51,18 +48,13 @@ public class Textview_activity extends AppCompatActivity {
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
     private int book_mark;
-    Toolbar toolbar;
+    private String RankInfoData;
+    Button BookTag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text);
-        toolbar = (Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
-        setSupportActionBar(toolbar);
-
-        Map<String, Integer> map = new HashMap<String, Integer>();
-
 
         helloTxt = (TextView) findViewById(R.id.hellotxt);
         helloTxt.setText(readTxt());
@@ -72,7 +64,14 @@ public class Textview_activity extends AppCompatActivity {
         bookmarkPref = getSharedPreferences("bookPred", Activity.MODE_PRIVATE);
         bookEdit = bookmarkPref.edit();
 
+     //   RankInfoData = (String)values.get(sortByValue(values).get(a).toString());
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+        int getLocationA = 200;
+        int getLocationB = 400;
+        bookEdit.putFloat("testBM_1",getLocationA);//임의의 좌표 testBM을 키로 설정하여 앱에 저장
+        bookEdit.putFloat("testBM_2",getLocationB);
+        bookEdit.commit();
 
         // permission granted...?
         if (isCameraPermissionGranted()) {
@@ -83,6 +82,7 @@ public class Textview_activity extends AppCompatActivity {
             requestCameraPermission();
         }
 
+
         // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
         scrollView.setOnTouchListener(new View.OnTouchListener(){
             public boolean onTouch(View v, MotionEvent event){
@@ -91,12 +91,22 @@ public class Textview_activity extends AppCompatActivity {
             }
         });
 
+
+
     }
+    Button.OnClickListener mClickListener = new View.OnClickListener() {
+        public void onClick(View v) {
+        }
+
+        };
+
+
 
     // txt 파일 읽어오는 함수
     private String readTxt() {
 
         InputStream inputStream = getResources().openRawResource(R.raw.mytext);
+
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
         int i;
@@ -249,7 +259,11 @@ public class Textview_activity extends AppCompatActivity {
         }
     }
 
-
+ /*   @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onLeftEyeClosed(LeftEyeClosedEvent e) {
+        change_down_location();
+    }
+*/
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
        // change_up_location();
@@ -303,7 +317,5 @@ public class Textview_activity extends AppCompatActivity {
                 .setRequestedFps(30f)
                 .build();
     }
-
-
 
 }
